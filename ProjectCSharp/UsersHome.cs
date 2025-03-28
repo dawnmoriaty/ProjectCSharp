@@ -70,12 +70,10 @@ namespace ProjectCSharp
                 return;
             }
 
-            string username = _user.UserName; // Dùng _user đã có
+            string username = _user.UserName; 
             string oldPassword = txtPassword.Text.Trim();
             string newPassword = txtPasswordChange.Text.Trim();
             string confirmPassword = txtConfirmPasswordChange.Text.Trim();
-
-            // Kiểm tra nhập liệu
             if (string.IsNullOrEmpty(oldPassword) || string.IsNullOrEmpty(newPassword) || string.IsNullOrEmpty(confirmPassword))
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -87,15 +85,9 @@ namespace ProjectCSharp
                 MessageBox.Show("Mật khẩu mới và xác nhận mật khẩu không khớp!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-            // Gọi DAO để đổi mật khẩu
             UserDAO userDAO = new UserDAO();
             string result = userDAO.ChangePassword(username, oldPassword, newPassword);
-
-            // Hiển thị kết quả
             MessageBox.Show(result, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            // Nếu thành công, ẩn form thay đổi mật khẩu
             if (result == "Đổi mật khẩu thành công!")
             {
                 thaydoimatkhau.Visible = false;
@@ -106,6 +98,8 @@ namespace ProjectCSharp
         {
             thongtincanhan.Visible = false;
             thaydoithongtin.Visible = true;
+            txtEmailChange.Text = _user.Email;
+            txtFullNameChange.Text = _user.FullName ;
         }
 
         private void btnExitChangeInformation_Click(object sender, EventArgs e)
@@ -114,5 +108,58 @@ namespace ProjectCSharp
             txtFullNameChange.Text = "";
             thaydoithongtin.Visible = false;
         }
+
+        private void btnChangeInformation_Click(object sender, EventArgs e)
+        {
+            string newFullName = txtFullNameChange.Text.Trim();
+            string newEmail = txtEmailChange.Text.Trim();
+            if (string.IsNullOrEmpty(newFullName) || string.IsNullOrEmpty(newEmail))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            // serivce
+            UserDAO userDAO = new UserDAO();
+            string result = userDAO.UpdateUserInfo(_user.UserName, newFullName, newEmail);
+            MessageBox.Show(result, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (result == "Cập nhật thông tin thành công!")
+            {
+                _user.FullName = newFullName;
+                _user.Email = newEmail;
+            }
+            thaydoithongtin.Visible = false;
+            thongtincanhan.Visible = true;
+        }
+
+        private void btnDeleteAccount_Click(object sender, EventArgs e)
+        {
+            if (_user == null)
+            {
+                MessageBox.Show("Lỗi: Không tìm thấy thông tin người dùng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            string username = _user.UserName;
+            DialogResult confirm = MessageBox.Show(
+                "Bạn có chắc chắn muốn xóa tài khoản này? Hành động này không thể hoàn tác!",
+                "Xác nhận xóa tài khoản",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirm == DialogResult.Yes)
+            {
+                UserDAO userDAO = new UserDAO();
+                string result = userDAO.DeleteUser(username);
+                MessageBox.Show(result, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                if (result == "Xóa người dùng thành công!")
+                {
+                    this.Close();
+                    Home home = new Home(); 
+                    home.Show();
+                }
+            }
+        }
+
     }
 }

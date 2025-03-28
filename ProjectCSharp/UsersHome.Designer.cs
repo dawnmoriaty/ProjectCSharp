@@ -73,7 +73,7 @@
             this.thongtincanhan.Controls.Add(this.txtFullName);
             this.thongtincanhan.Controls.Add(this.label1);
             this.thongtincanhan.Controls.Add(this.lblInfor);
-            this.thongtincanhan.Location = new System.Drawing.Point(234, 191);
+            this.thongtincanhan.Location = new System.Drawing.Point(234, 171);
             this.thongtincanhan.Name = "thongtincanhan";
             this.thongtincanhan.Size = new System.Drawing.Size(828, 495);
             this.thongtincanhan.TabIndex = 2;
@@ -90,6 +90,7 @@
             this.btnDeleteAccount.TabIndex = 7;
             this.btnDeleteAccount.Text = "Xoá tài khoản";
             this.btnDeleteAccount.UseVisualStyleBackColor = false;
+            this.btnDeleteAccount.Click += new System.EventHandler(this.btnDeleteAccount_Click);
             // 
             // btnUpdateInfor
             // 
@@ -176,7 +177,7 @@
             this.thaydoimatkhau.Controls.Add(this.txtPassword);
             this.thaydoimatkhau.Controls.Add(this.label4);
             this.thaydoimatkhau.Controls.Add(this.label3);
-            this.thaydoimatkhau.Location = new System.Drawing.Point(337, 171);
+            this.thaydoimatkhau.Location = new System.Drawing.Point(351, 169);
             this.thaydoimatkhau.Name = "thaydoimatkhau";
             this.thaydoimatkhau.Size = new System.Drawing.Size(411, 383);
             this.thaydoimatkhau.TabIndex = 4;
@@ -309,6 +310,7 @@
             this.btnChangeInformation.TabIndex = 5;
             this.btnChangeInformation.Text = "Cập nhật";
             this.btnChangeInformation.UseVisualStyleBackColor = false;
+            this.btnChangeInformation.Click += new System.EventHandler(this.btnChangeInformation_Click);
             // 
             // txtEmailChange
             // 
@@ -376,7 +378,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1702, 717);
+            this.ClientSize = new System.Drawing.Size(1157, 717);
             this.Controls.Add(this.thaydoimatkhau);
             this.Controls.Add(this.sidebar1);
             this.Controls.Add(this.thaydoithongtin);

@@ -193,6 +193,63 @@ namespace ProjectCSharp.DAO
             }
         }
         // update infor
+        public string UpdateUserInfo(string username, string fullName, string email)
+        {
+            SqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string query = "UPDATE Users SET FullName = @fullName, Email = @email WHERE UserName = @userName";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@fullName", fullName);
+                cmd.Parameters.AddWithValue("@email", email);
+                cmd.Parameters.AddWithValue("@userName", username);
+                int rowsAffected = cmd.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    return "Cập nhật thông tin thành công!";
+                }
+                else
+                {
+                    return "Không thể cập nhật thông tin!";
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
+        //delete users
+        public string DeleteUser(string username)
+        {
+            SqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string query = "DELETE FROM Users WHERE UserName = @userName";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@userName", username);
+                int rowsAffected = cmd.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    return "Xóa người dùng thành công!";
+                }
+                else
+                {
+                    return "Không thể xóa người dùng!";
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
 
     }
 }
