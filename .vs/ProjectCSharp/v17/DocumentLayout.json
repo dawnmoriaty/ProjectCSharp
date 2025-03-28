@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\usershome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Sidebar.cs [Design]",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Sidebar.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\Component\\User\\Sidebar.cs",
@@ -73,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\User.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\Model\\User.cs",
@@ -85,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserDAO.cs",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\UserDAO.cs",
@@ -103,14 +107,27 @@
               "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
               "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
               "RelativeToolTip": "ProjectCSharp\\UsersHome.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAwwJ0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T07:25:04.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "UsersHome.Designer.cs",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.Designer.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.Designer.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.Designer.cs",
+              "RelativeToolTip": "ProjectCSharp\\UsersHome.Designer.cs",
+              "ViewState": "AgIAAA4BAAAAAAAAAADgvyEBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:02:12.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Header.cs [Design]",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Header.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\Component\\User\\Header.cs",
@@ -121,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SQLQuery2.sql",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "SQLQuery2.sql",

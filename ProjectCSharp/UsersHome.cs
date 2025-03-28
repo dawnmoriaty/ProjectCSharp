@@ -44,8 +44,17 @@ namespace ProjectCSharp
 
         private void thongtincanhan_Paint(object sender, PaintEventArgs e)
         {
-            txtFullName.Text = _user.FullName ;
-            txtEmail.Text = _user.Email ;
+            // Kiểm tra null = không thì k đăng xuất được @@ á shiba
+            if (_user != null)
+            {
+                txtFullName.Text = _user.FullName;
+                txtEmail.Text = _user.Email;
+            }
+            else
+            {
+                txtFullName.Text = "";
+                txtEmail.Text = "";
+            }
         }
 
         private void btnUpdatePassword_Click(object sender, EventArgs e)
@@ -161,5 +170,27 @@ namespace ProjectCSharp
             }
         }
 
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            DialogResult confirm = MessageBox.Show(
+        "Bạn có chắc chắn muốn đăng xuất?",
+        "Xác nhận đăng xuất",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Question);
+
+            if (confirm == DialogResult.Yes)
+            {
+                _user = null;
+
+                // Đóng toàn bộ form đang mở === cái này do gpt gen :D
+                foreach (Form form in Application.OpenForms.Cast<Form>().ToList())
+                {
+                    form.Close();
+                }
+                this.Close();
+                Home home = new Home();
+                home.Show();
+            }
+        }
     }
 }
