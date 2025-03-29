@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\",
+  "WorkspaceRootPath": "C:\\Users\\JulyTus\\Desktop\\New folder\\ProjectCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\usershome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\component\\user\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\component\\user\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|c:\\users\\julytus\\desktop\\new folder\\projectcsharp\\projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sidebar.cs [Design]",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Sidebar.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\Component\\User\\Sidebar.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Sidebar.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\Component\\User\\Sidebar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:02:52.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersHome.cs [Design]",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T14:05:14.459Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\User.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\Model\\User.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\User.cs",
-              "RelativeToolTip": "ProjectCSharp\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T11:00:02.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDAO.cs",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\UserDAO.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
-              "RelativeToolTip": "ProjectCSharp\\DAO\\UserDAO.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAqwOkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:02:50.865Z"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersHome.cs",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\New folder\\ProjectCSharp\\ProjectCSharp\\Form\\Home.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\Form\\Home.cs",
+              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\New folder\\ProjectCSharp\\ProjectCSharp\\Form\\Home.cs [Design]",
+              "RelativeToolTip": "ProjectCSharp\\Form\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:25:04.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersHome.Designer.cs",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.Designer.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.Designer.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.Designer.cs",
-              "RelativeToolTip": "ProjectCSharp\\UsersHome.Designer.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAADgvyEBAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T18:02:12.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Header.cs [Design]",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Header.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\Component\\User\\Header.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Header.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\Component\\User\\Header.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T15:02:54.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SQLQuery2.sql",
-              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\SQLQuery2.sql",
-              "RelativeDocumentMoniker": "SQLQuery2.sql",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\SQLQuery2.sql",
-              "RelativeToolTip": "SQLQuery2.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-28T14:35:19.799Z"
+              "WhenOpened": "2025-03-29T02:49:40.44Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
