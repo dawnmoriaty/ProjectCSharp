@@ -118,6 +118,19 @@ namespace ProjectCSharp
             thaydoithongtin.Visible = false;
         }
 
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         private void btnChangeInformation_Click(object sender, EventArgs e)
         {
             string newFullName = txtFullNameChange.Text.Trim();
@@ -127,6 +140,15 @@ namespace ProjectCSharp
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
+            // Kiểm tra email hợp lệ
+            if (!IsValidEmail(newEmail))
+            {
+                MessageBox.Show("Email không hợp lệ! Vui lòng kiểm tra lại.",
+                    "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             // serivce
             UserDAO userDAO = new UserDAO();
             string result = userDAO.UpdateUserInfo(_user.UserName, newFullName, newEmail);
