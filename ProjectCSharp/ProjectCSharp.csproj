@@ -62,6 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Component\User\Header.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </Compile>
     <Compile Include="Utils\ConnectDB.cs" />
     <Compile Include="Utils\Valid.cs" />
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Component\User\Header.resx">
       <DependentUpon>Header.cs</DependentUpon>
     </EmbeddedResource>

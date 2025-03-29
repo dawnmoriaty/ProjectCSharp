@@ -250,6 +250,41 @@ namespace ProjectCSharp.DAO
                 ConnectDB.CloseConnection(conn);
             }
         }
+        // get all by admin
+        public List<User> GetAllUsers()
+        {
+            List<User> users = new List<User>();
+            SqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string query = "SELECT Id, UserName, FullName, Email, UserRole FROM Users";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    users.Add(new User
+                    {
+                        Id = (int)reader["Id"],
+                        UserName = reader["UserName"].ToString(),
+                        FullName = reader["FullName"].ToString(),
+                        Email = reader["Email"].ToString(),
+                        UserRole = reader["UserRole"].ToString()
+                    });
+                }
+                return users;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
+        // disable user
+
 
     }
 }
