@@ -65,6 +65,19 @@ namespace ProjectCSharp
         }
 
         // Viết Logic Sau
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         private void btnRegister_Click(object sender, EventArgs e)
         {
             // Lấy dữ liệu từ giao diện
@@ -78,6 +91,14 @@ namespace ProjectCSharp
                 string.IsNullOrEmpty(fullName) || string.IsNullOrEmpty(email) )
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin (tên đăng nhập, mật khẩu, họ tên, email, quyền hạn)!",
+                    "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Kiểm tra email hợp lệ
+            if (!IsValidEmail(email))
+            {
+                MessageBox.Show("Email không hợp lệ! Vui lòng kiểm tra lại.",
                     "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
