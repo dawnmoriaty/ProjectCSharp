@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.btnHomeUser = new System.Windows.Forms.Button();
-            this.btnVi = new System.Windows.Forms.Button();
+            this.btnsogiaodich = new System.Windows.Forms.Button();
             this.btnthuchi = new System.Windows.Forms.Button();
             this.btnthongtin = new System.Windows.Forms.Button();
+            this.btnPlus = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPlus)).BeginInit();
             this.SuspendLayout();
             // 
             // btnHomeUser
@@ -46,24 +48,25 @@
             this.btnHomeUser.Text = "Tổng quan";
             this.btnHomeUser.UseVisualStyleBackColor = false;
             // 
-            // btnVi
+            // btnsogiaodich
             // 
-            this.btnVi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
-            this.btnVi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVi.ForeColor = System.Drawing.Color.White;
-            this.btnVi.Location = new System.Drawing.Point(21, 138);
-            this.btnVi.Name = "btnVi";
-            this.btnVi.Size = new System.Drawing.Size(183, 42);
-            this.btnVi.TabIndex = 1;
-            this.btnVi.Text = "Ví sử dụng";
-            this.btnVi.UseVisualStyleBackColor = false;
+            this.btnsogiaodich.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
+            this.btnsogiaodich.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsogiaodich.ForeColor = System.Drawing.Color.White;
+            this.btnsogiaodich.Location = new System.Drawing.Point(21, 138);
+            this.btnsogiaodich.Name = "btnsogiaodich";
+            this.btnsogiaodich.Size = new System.Drawing.Size(183, 42);
+            this.btnsogiaodich.TabIndex = 1;
+            this.btnsogiaodich.Text = "Sổ giao dịch";
+            this.btnsogiaodich.UseVisualStyleBackColor = false;
+            this.btnsogiaodich.Click += new System.EventHandler(this.btnsogiaodich_Click);
             // 
             // btnthuchi
             // 
             this.btnthuchi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnthuchi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthuchi.ForeColor = System.Drawing.Color.White;
-            this.btnthuchi.Location = new System.Drawing.Point(21, 216);
+            this.btnthuchi.Location = new System.Drawing.Point(21, 400);
             this.btnthuchi.Name = "btnthuchi";
             this.btnthuchi.Size = new System.Drawing.Size(183, 42);
             this.btnthuchi.TabIndex = 2;
@@ -75,25 +78,35 @@
             this.btnthongtin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnthongtin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthongtin.ForeColor = System.Drawing.Color.White;
-            this.btnthongtin.Location = new System.Drawing.Point(21, 298);
+            this.btnthongtin.Location = new System.Drawing.Point(21, 482);
             this.btnthongtin.Name = "btnthongtin";
             this.btnthongtin.Size = new System.Drawing.Size(183, 62);
             this.btnthongtin.TabIndex = 3;
-            this.btnthongtin.Text = "Thông tin cá nhân";
+            this.btnthongtin.Text = "Tài Khoản";
             this.btnthongtin.UseVisualStyleBackColor = false;
             this.btnthongtin.Click += new System.EventHandler(this.btnthongtin_Click);
+            // 
+            // btnPlus
+            // 
+            this.btnPlus.Location = new System.Drawing.Point(21, 225);
+            this.btnPlus.Name = "btnPlus";
+            this.btnPlus.Size = new System.Drawing.Size(183, 137);
+            this.btnPlus.TabIndex = 4;
+            this.btnPlus.TabStop = false;
             // 
             // Sidebar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
+            this.Controls.Add(this.btnPlus);
             this.Controls.Add(this.btnthongtin);
             this.Controls.Add(this.btnthuchi);
-            this.Controls.Add(this.btnVi);
+            this.Controls.Add(this.btnsogiaodich);
             this.Controls.Add(this.btnHomeUser);
             this.Name = "Sidebar";
             this.Size = new System.Drawing.Size(231, 585);
+            ((System.ComponentModel.ISupportInitialize)(this.btnPlus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -101,8 +114,9 @@
         #endregion
 
         private System.Windows.Forms.Button btnHomeUser;
-        private System.Windows.Forms.Button btnVi;
+        private System.Windows.Forms.Button btnsogiaodich;
         private System.Windows.Forms.Button btnthuchi;
         private System.Windows.Forms.Button btnthongtin;
+        private System.Windows.Forms.PictureBox btnPlus;
     }
 }

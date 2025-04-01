@@ -46,3 +46,7 @@ C:\Users\JulyTus\Desktop\New folder\ProjectCSharp\ProjectCSharp\obj\Debug\Projec
 C:\Users\JulyTus\Desktop\New folder\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectC.30D174BD.Up2Date
 C:\Users\JulyTus\Desktop\New folder\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.exe
 C:\Users\JulyTus\Desktop\New folder\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.pdb
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.AdminHome.resources
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.baocaochitiet.resources
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.themgiaodich.resources
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.sogiaodich.resources

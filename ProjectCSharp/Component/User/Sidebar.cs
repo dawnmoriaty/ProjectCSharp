@@ -13,6 +13,7 @@ namespace ProjectCSharp.Component.User
     public partial class Sidebar: UserControl
     {
         private UsersHome usersHome;
+        private sogiaodich sogiaodich;
 
         public Sidebar()
         {
@@ -34,6 +35,12 @@ namespace ProjectCSharp.Component.User
             {
                 MessageBox.Show("Lỗi: UsersHome chưa được gán!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            
+        }
+
+        private void btnsogiaodich_Click(object sender, EventArgs e)
+        {
+            usersHome.showSogiaodich();
         }
     }
 }

@@ -56,11 +56,13 @@
             this.txtFullName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblInfor = new System.Windows.Forms.Label();
+            this.panel = new System.Windows.Forms.Panel();
             this.sidebar1 = new ProjectCSharp.Component.User.Sidebar();
             this.header1 = new ProjectCSharp.Component.User.Header();
             this.thongtincanhan.SuspendLayout();
             this.thaydoithongtin.SuspendLayout();
             this.thaydoimatkhau.SuspendLayout();
+            this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // thongtincanhan
@@ -77,7 +79,7 @@
             this.thongtincanhan.Controls.Add(this.txtFullName);
             this.thongtincanhan.Controls.Add(this.label1);
             this.thongtincanhan.Controls.Add(this.lblInfor);
-            this.thongtincanhan.Location = new System.Drawing.Point(234, 171);
+            this.thongtincanhan.Location = new System.Drawing.Point(5, 19);
             this.thongtincanhan.Name = "thongtincanhan";
             this.thongtincanhan.Size = new System.Drawing.Size(908, 495);
             this.thongtincanhan.TabIndex = 2;
@@ -377,6 +379,14 @@
             this.lblInfor.TabIndex = 0;
             this.lblInfor.Text = "Thông tin cá nhân";
             // 
+            // panel
+            // 
+            this.panel.Controls.Add(this.thongtincanhan);
+            this.panel.Location = new System.Drawing.Point(229, 152);
+            this.panel.Name = "panel";
+            this.panel.Size = new System.Drawing.Size(923, 563);
+            this.panel.TabIndex = 1;
+            // 
             // sidebar1
             // 
             this.sidebar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
@@ -398,9 +408,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1303, 717);
+            this.Controls.Add(this.panel);
             this.Controls.Add(this.sidebar1);
             this.Controls.Add(this.header1);
-            this.Controls.Add(this.thongtincanhan);
             this.Name = "UsersHome";
             this.Text = "UsersHome";
             this.Load += new System.EventHandler(this.UsersHome_Load);
@@ -410,6 +420,7 @@
             this.thaydoithongtin.PerformLayout();
             this.thaydoimatkhau.ResumeLayout(false);
             this.thaydoimatkhau.PerformLayout();
+            this.panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -446,5 +457,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnExitChangeInformation;
         private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Panel panel;
     }
 }

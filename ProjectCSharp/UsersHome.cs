@@ -16,7 +16,8 @@ namespace ProjectCSharp
     public partial class UsersHome: Form
     {
         private User _user;
-
+        private sogiaodich sogiaodich;
+        
         public UsersHome()
         {
             InitializeComponent();
@@ -38,8 +39,11 @@ namespace ProjectCSharp
         // Phương thức truyền từ UserHome sang Sidebar
         public void ShowThongTinCanhan()
         {
+            thaydoimatkhau.Visible = false;
+            thaydoithongtin.Visible = false;
             thongtincanhan.Visible = true;
-            
+            thongtincanhan.BringToFront();
+
         }
 
         private void thongtincanhan_Paint(object sender, PaintEventArgs e)
@@ -60,7 +64,10 @@ namespace ProjectCSharp
         private void btnUpdatePassword_Click(object sender, EventArgs e)
         {
             thongtincanhan.Visible = false;
+            thaydoithongtin.Visible = false;
+            panel.Visible = false;
             thaydoimatkhau.Visible = true;
+            thaydoimatkhau.BringToFront();
         }
 
         private void btnExitChangePassWord_Click(object sender, EventArgs e)
@@ -108,7 +115,7 @@ namespace ProjectCSharp
             thongtincanhan.Visible = false;
             thaydoithongtin.Visible = true;
             txtEmailChange.Text = _user.Email;
-            txtFullNameChange.Text = _user.FullName ;
+            txtFullNameChange.Text = _user.FullName;
         }
 
         private void btnExitChangeInformation_Click(object sender, EventArgs e)
@@ -214,5 +221,30 @@ namespace ProjectCSharp
                 home.Show();
             }
         }
+        public void showSogiaodich()
+        {
+            anthongtincanhan();
+
+            if (!panel.Controls.Contains(sogiaodich.Instance))
+            {
+                panel.Controls.Add(sogiaodich.Instance);
+                sogiaodich.Instance.Dock = DockStyle.Fill; 
+                sogiaodich.Instance.BringToFront();
+            }
+            else
+            {
+                sogiaodich.Instance.BringToFront();
+            }
+
+        }
+
+        public void anthongtincanhan()
+        {
+            thongtincanhan.Visible = false;
+            thaydoimatkhau.Visible = false;
+            thaydoithongtin.Visible = false;
+        }
+
+        
     }
 }
