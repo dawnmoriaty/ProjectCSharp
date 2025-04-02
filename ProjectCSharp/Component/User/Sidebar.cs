@@ -40,7 +40,12 @@ namespace ProjectCSharp.Component.User
 
         private void btnsogiaodich_Click(object sender, EventArgs e)
         {
-            usersHome.showSogiaodich();
+            usersHome.ShowSoGiaoDich();
+        }
+
+        private void btnHomeUser_Click(object sender, EventArgs e)
+        {
+            usersHome.ShowHomePage();
         }
     }
 }

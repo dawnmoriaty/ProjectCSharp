@@ -75,12 +75,6 @@
     <Compile Include="baocaochitiet.Designer.cs">
       <DependentUpon>baocaochitiet.cs</DependentUpon>
     </Compile>
-    <Compile Include="Component\User\Header.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Component\User\Header.Designer.cs">
-      <DependentUpon>Header.cs</DependentUpon>
-    </Compile>
     <Compile Include="Component\User\Sidebar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -110,11 +104,29 @@
     <Compile Include="sogiaodich.Designer.cs">
       <DependentUpon>sogiaodich.cs</DependentUpon>
     </Compile>
+    <Compile Include="thaydoimatkhau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="thaydoimatkhau.Designer.cs">
+      <DependentUpon>thaydoimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thaydoithongtincanhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="thaydoithongtincanhan.Designer.cs">
+      <DependentUpon>thaydoithongtincanhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="themgiaodich.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="themgiaodich.Designer.cs">
       <DependentUpon>themgiaodich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thongtincanhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="thongtincanhan.Designer.cs">
+      <DependentUpon>thongtincanhan.cs</DependentUpon>
     </Compile>
     <Compile Include="UsersHome.cs">
       <SubType>Form</SubType>
@@ -129,9 +141,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="baocaochitiet.resx">
       <DependentUpon>baocaochitiet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Component\User\Header.resx">
-      <DependentUpon>Header.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Component\User\Sidebar.resx">
       <DependentUpon>Sidebar.cs</DependentUpon>
@@ -151,8 +160,17 @@
     <EmbeddedResource Include="sogiaodich.resx">
       <DependentUpon>sogiaodich.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="thaydoimatkhau.resx">
+      <DependentUpon>thaydoimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thaydoithongtincanhan.resx">
+      <DependentUpon>thaydoithongtincanhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="themgiaodich.resx">
       <DependentUpon>themgiaodich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thongtincanhan.resx">
+      <DependentUpon>thongtincanhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsersHome.resx">
       <DependentUpon>UsersHome.cs</DependentUpon>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sidebar));
             this.btnHomeUser = new System.Windows.Forms.Button();
             this.btnsogiaodich = new System.Windows.Forms.Button();
             this.btnthuchi = new System.Windows.Forms.Button();
@@ -47,6 +48,7 @@
             this.btnHomeUser.TabIndex = 0;
             this.btnHomeUser.Text = "Tổng quan";
             this.btnHomeUser.UseVisualStyleBackColor = false;
+            this.btnHomeUser.Click += new System.EventHandler(this.btnHomeUser_Click);
             // 
             // btnsogiaodich
             // 
@@ -88,9 +90,11 @@
             // 
             // btnPlus
             // 
+            this.btnPlus.Image = ((System.Drawing.Image)(resources.GetObject("btnPlus.Image")));
             this.btnPlus.Location = new System.Drawing.Point(21, 225);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(183, 137);
+            this.btnPlus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnPlus.TabIndex = 4;
             this.btnPlus.TabStop = false;
             // 

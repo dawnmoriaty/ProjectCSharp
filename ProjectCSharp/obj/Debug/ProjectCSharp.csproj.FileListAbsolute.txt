@@ -19,7 +19,6 @@ D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\bin\Debug\System.Memory.x
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\bin\Debug\System.Numerics.Vectors.xml
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectC.30D174BD.Up2Date
-D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.Component.User.Header.resources
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.UsersHome.resources
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.Component.User.Sidebar.resources
 C:\Users\JulyTus\Desktop\New folder\ProjectCSharp\ProjectCSharp\bin\Debug\ProjectCSharp.exe.config
@@ -50,3 +49,6 @@ D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.A
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.baocaochitiet.resources
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.themgiaodich.resources
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.sogiaodich.resources
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thaydoimatkhau.resources
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thaydoithongtincanhan.resources
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thongtincanhan.resources
