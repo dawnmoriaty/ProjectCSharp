@@ -13,7 +13,6 @@ namespace ProjectCSharp.Component.User
     public partial class Sidebar: UserControl
     {
         private UsersHome usersHome;
-        private sogiaodich sogiaodich;
 
         public Sidebar()
         {

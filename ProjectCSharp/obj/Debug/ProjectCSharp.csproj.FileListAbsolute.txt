@@ -52,3 +52,4 @@ D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.s
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thaydoimatkhau.resources
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thaydoithongtincanhan.resources
 D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thongtincanhan.resources
+D:\Fullstack\Backend\Sharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.BaoCao.resources

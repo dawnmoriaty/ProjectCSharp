@@ -14,5 +14,6 @@ namespace ProjectCSharp.Model
         public string FullName { get; set; }
         public string Email { get; set; }
         public string UserRole { get; set; } = "USER";
+        private DateTime CreatedAt { get; set; }
     }
 }

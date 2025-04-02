@@ -115,7 +115,7 @@ namespace ProjectCSharp.DAO
             SqlConnection conn = ConnectDB.GetConnection();
             try
             {
-                string query = "SELECT Id,UserName ,FullName, Email FROM Users WHERE UserName = @userName";
+                string query = "SELECT UserId,UserName ,FullName, Email FROM Users WHERE UserName = @userName";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@userName", username);
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -124,7 +124,7 @@ namespace ProjectCSharp.DAO
                 {
                     return new User
                     {
-                        Id = (int)reader["Id"],
+                        Id = (int)reader["UserId"],
                         UserName = reader["UserName"].ToString(),
                         FullName = reader["FullName"].ToString(),
                         Email = reader["Email"].ToString()
