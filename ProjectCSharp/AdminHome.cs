@@ -16,10 +16,13 @@ namespace ProjectCSharp
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void btnquanlytaikhoan_Click(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 6387646 (add view AdminHome)
     }
 }

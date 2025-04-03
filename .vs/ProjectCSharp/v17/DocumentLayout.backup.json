@@ -71,12 +71,20 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "TransactionService.cs",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\TransactionService.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\TransactionService.cs",
               "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\TransactionService.cs",
               "RelativeToolTip": "ProjectCSharp\\TransactionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
+              "Title": "UsersHome.cs [Design]",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs [Design]",
+              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs [Design]",
+>>>>>>> 6387646 (add view AdminHome)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T09:56:55.223Z",
               "EditorCaption": ""
@@ -158,7 +166,71 @@
               "RelativeToolTip": "ProjectCSharp\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-04-02T14:29:47.201Z"
+=======
+              "WhenOpened": "2025-03-28T11:00:02.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\UserDAO.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
+              "RelativeToolTip": "ProjectCSharp\\DAO\\UserDAO.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAqwOkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:02:50.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersHome.cs",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
+              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:25:04.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersHome.Designer.cs",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.Designer.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.Designer.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.Designer.cs",
+              "RelativeToolTip": "ProjectCSharp\\UsersHome.Designer.cs",
+              "ViewState": "AgIAAA4BAAAAAAAAAADgvyEBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:02:12.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Header.cs [Design]",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Header.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\Component\\User\\Header.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Component\\User\\Header.cs [Design]",
+              "RelativeToolTip": "ProjectCSharp\\Component\\User\\Header.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:02:54.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SQLQuery2.sql",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "SQLQuery2.sql",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\SQLQuery2.sql",
+              "RelativeToolTip": "SQLQuery2.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-28T14:35:19.799Z"
+>>>>>>> 6387646 (add view AdminHome)
             }
           ]
         }

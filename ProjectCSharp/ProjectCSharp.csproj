@@ -69,6 +69,7 @@
     <Compile Include="AdminHome.Designer.cs">
       <DependentUpon>AdminHome.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="BaoCao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +77,9 @@
       <DependentUpon>BaoCao.cs</DependentUpon>
     </Compile>
     <Compile Include="baocaochitiet.cs">
+=======
+    <Compile Include="Component\User\Header.cs">
+>>>>>>> 6387646 (add view AdminHome)
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="baocaochitiet.Designer.cs">
@@ -152,11 +156,16 @@
     <EmbeddedResource Include="AdminHome.resx">
       <DependentUpon>AdminHome.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="BaoCao.resx">
       <DependentUpon>BaoCao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="baocaochitiet.resx">
       <DependentUpon>baocaochitiet.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Component\User\Header.resx">
+      <DependentUpon>Header.cs</DependentUpon>
+>>>>>>> 6387646 (add view AdminHome)
     </EmbeddedResource>
     <EmbeddedResource Include="Component\User\Sidebar.resx">
       <DependentUpon>Sidebar.cs</DependentUpon>
