@@ -74,6 +74,7 @@
             this.btnthuchi.TabIndex = 2;
             this.btnthuchi.Text = "Tổng thu chi";
             this.btnthuchi.UseVisualStyleBackColor = false;
+            this.btnthuchi.Click += new System.EventHandler(this.btnthuchi_Click);
             // 
             // btnthongtin
             // 

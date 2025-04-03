@@ -46,5 +46,10 @@ namespace ProjectCSharp.Component.User
         {
             usersHome.ShowHomePage();
         }
+
+        private void btnthuchi_Click(object sender, EventArgs e)
+        {
+            usersHome.ShowQuanLyDanhMuc();
+        }
     }
 }

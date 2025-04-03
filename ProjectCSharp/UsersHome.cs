@@ -21,6 +21,7 @@ namespace ProjectCSharp
         private thaydoimatkhau thaydoimatkhau;
         private homepage homepage;
         private sogiaodich sogiaodich;
+        private quanlydanhmuc quanlydanhmuc;
 
         public UsersHome()
         {
@@ -66,6 +67,11 @@ namespace ProjectCSharp
             thongtincanhan.LoadUserInfo();
             ShowUserControl(thongtincanhan);
 
+        }
+        public void ShowQuanLyDanhMuc()
+        {
+            quanlydanhmuc = new quanlydanhmuc();
+            ShowUserControl(quanlydanhmuc);
         }
         public void ShowThayDoiMatKhau()
         {

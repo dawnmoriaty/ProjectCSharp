@@ -104,6 +104,12 @@
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quanlydanhmuc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="quanlydanhmuc.Designer.cs">
+      <DependentUpon>quanlydanhmuc.cs</DependentUpon>
+    </Compile>
     <Compile Include="sogiaodich.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -167,6 +173,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="quanlydanhmuc.resx">
+      <DependentUpon>quanlydanhmuc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sogiaodich.resx">
       <DependentUpon>sogiaodich.cs</DependentUpon>
     </EmbeddedResource>

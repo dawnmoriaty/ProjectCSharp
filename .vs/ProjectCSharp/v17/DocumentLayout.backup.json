@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\utils\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\utils\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -10,30 +18,24 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\suhuhkbk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|d:\\fullstack\\backend\\sharp\\projectcsharp\\projectcsharp\\baocaochitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\projectcsharp\\baocaochitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{356C8CF4-2A66-416D-8BDE-80A70C9F9CA4}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\baocaochitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\suhuhkbk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\AppData\\Local\\Temp\\suhuhkbk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,88 +57,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SQLQuery2.sql ",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\suhuhkbk..sql",
-              "ToolTip": "SQLQuery2.sql *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-02T14:52:52.298Z",
+              "DocumentIndex": 0,
+              "Title": "ConnectDB.cs",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Utils\\ConnectDB.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\Utils\\ConnectDB.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Utils\\ConnectDB.cs",
+              "RelativeToolTip": "ProjectCSharp\\Utils\\ConnectDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:02:17.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\TransactionService.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\TransactionService.cs",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\TransactionService.cs",
+              "RelativeToolTip": "ProjectCSharp\\TransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:56:55.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "suhuhkbk..sql",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\suhuhkbk..sql",
+              "ToolTip": "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\suhuhkbk..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-02T14:52:52.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserDAO.cs",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\UserDAO.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs*",
-              "RelativeToolTip": "ProjectCSharp\\DAO\\UserDAO.cs*",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAwwMgAAABrAAAAAAAAAA==",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
+              "RelativeToolTip": "ProjectCSharp\\DAO\\UserDAO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAMgAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T14:51:17.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\Category.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\Model\\Category.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\Category.cs*",
-              "RelativeToolTip": "ProjectCSharp\\Model\\Category.cs*",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\Category.cs",
+              "RelativeToolTip": "ProjectCSharp\\Model\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:49:01.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T14:49:01.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "sogiaodich.cs [Design]",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\sogiaodich.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\sogiaodich.cs",
               "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\sogiaodich.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\sogiaodich.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:37:20.001Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-02T14:37:20.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "homepage.cs [Design]",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\homepage.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\homepage.cs",
               "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\homepage.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\homepage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:37:16.003Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-02T14:37:16.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "baocaochitiet.cs [Design]",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\baocaochitiet.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\baocaochitiet.cs",
               "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\baocaochitiet.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\baocaochitiet.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:37:10Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-02T14:37:10Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\User.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\Model\\User.cs",
-              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\User.cs*",
-              "RelativeToolTip": "ProjectCSharp\\Model\\User.cs*",
+              "ToolTip": "D:\\Fullstack\\Backend\\Sharp\\ProjectCSharp\\ProjectCSharp\\Model\\User.cs",
+              "RelativeToolTip": "ProjectCSharp\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:29:47.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T14:29:47.201Z"
             }
           ]
         }
