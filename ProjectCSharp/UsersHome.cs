@@ -77,6 +77,8 @@ namespace ProjectCSharp
         
         public void ShowSoGiaoDich()
         {
+            themgiaodich themgiaodich = new themgiaodich(_user, this);
+            themgiaodich.Show();
         }
 
         public void ShowHomePage()
@@ -84,6 +86,11 @@ namespace ProjectCSharp
         }
         // chua có nè
         public void ShowTongthuchi()
+        {
+
+        }
+
+        private void sidebar1_Load(object sender, EventArgs e)
         {
 
         }

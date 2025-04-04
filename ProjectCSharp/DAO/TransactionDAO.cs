@@ -126,5 +126,38 @@ namespace ProjectCSharp.DAO
 
             return await db.ExecuteQueryAsync(query, parameters);
         }
+
+        public string CreateTransaction(Transaction transaction)
+        {
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string query = @"INSERT INTO Transactions (Amount, CategoryId, BudgetId, TransactionDate, Description, UserId) 
+                                VALUES (@Amount, @CategoryId, @BudgetId, @TransactionDate, @Description, @UserId)";
+                
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Amount", transaction.Amount);
+                cmd.Parameters.AddWithValue("@CategoryId", transaction.CategoryId);
+                cmd.Parameters.AddWithValue("@BudgetId", transaction.BudgetId);
+                cmd.Parameters.AddWithValue("@TransactionDate", transaction.TransactionDate);
+                cmd.Parameters.AddWithValue("@Description", transaction.Description ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@UserId", transaction.UserId);
+
+                int rowsAffected = cmd.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    return "success";
+                }
+                return "Không thể tạo giao dịch";
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
     }
 }
