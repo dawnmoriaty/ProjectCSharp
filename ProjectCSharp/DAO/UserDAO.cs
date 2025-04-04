@@ -81,14 +81,15 @@ namespace ProjectCSharp.DAO
 
                 // Mã hóa mật khẩu và thêm người dùng mới
                 string hashedPassword = HashPassword(password);
-                string insertQuery = "INSERT INTO Users (UserName, PasswordHash, FullName, Email, UserRole) " +
-                                   "VALUES (@userName, @password, @fullName, @email, @userRole)";
+                string insertQuery = "INSERT INTO Users (UserName, PasswordHash, FullName, Email, UserRole, Status) " +
+                     "VALUES (@userName, @password, @fullName, @email, @userRole, @status)";
                 MySqlCommand cmd = new MySqlCommand(insertQuery, conn);
                 cmd.Parameters.AddWithValue("@userName", username);
                 cmd.Parameters.AddWithValue("@password", hashedPassword);
                 cmd.Parameters.AddWithValue("@fullName", fullName);
                 cmd.Parameters.AddWithValue("@email", email);
                 cmd.Parameters.AddWithValue("@userRole", userRole);
+                cmd.Parameters.AddWithValue("@status", true);
 
                 int rowsAffected = cmd.ExecuteNonQuery();
                 if (rowsAffected > 0)
