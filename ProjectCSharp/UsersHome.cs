@@ -77,6 +77,12 @@ namespace ProjectCSharp
         
         public void ShowSoGiaoDich()
         {
+            sogiaodich sogiaodich = new sogiaodich(_user);
+            ShowUserControl(sogiaodich);
+        }
+
+        public void ShowThemGiaoDich()
+        {
             themgiaodich themgiaodich = new themgiaodich(_user, this);
             themgiaodich.Show();
         }

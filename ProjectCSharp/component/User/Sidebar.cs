@@ -53,5 +53,17 @@ namespace ProjectCSharp.Component.User
         {
             usersHome.ShowHomePage();
         }
+
+        private void taogiaodich_Click(object sender, EventArgs e)
+        {
+            if (usersHome != null)
+            {
+                usersHome.ShowThemGiaoDich();
+            }
+            else
+            {
+                MessageBox.Show("Lỗi: UsersHome chưa được gán!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
