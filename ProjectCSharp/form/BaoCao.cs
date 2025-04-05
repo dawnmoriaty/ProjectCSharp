@@ -18,7 +18,6 @@ namespace ProjectCSharp
     {
         private readonly User _user;
         private readonly TransactionDAO transactionService;
-        private System.Windows.Forms.Timer autoUpdateTimer;
 
         public BaoCao(User userInfo)
         {
@@ -268,6 +267,10 @@ namespace ProjectCSharp
                 .Select(r => $"{Convert.ToDouble(r["Total"]):N0} đ")
                 .ToArray();
 
+            plotKhoanChi.Legends.Clear();
+            Legend legendChi = new Legend("Legend");
+            plotKhoanChi.Legends.Add(legendChi);
+
             ChartArea chartArea = new ChartArea();
             plotKhoanChi.ChartAreas.Add(chartArea);
 
@@ -280,8 +283,10 @@ namespace ProjectCSharp
             for (int i = 0; i < values.Length; i++)
             {
                 DataPoint point = new DataPoint();
-                point.SetValueXY(labels[i], values[i]); 
+                point.SetValueXY(labels[i], values[i]);
                 point.Label = $"({values[i] / values.Sum() * 100:0.0}%)";
+                string categoryName = data.Rows[i]["CategoryName"].ToString();
+                point.LegendText = $"{categoryName} ({values[i]:N0} đ)";
                 point.Font = new Font("Arial", 6);
                 pieSeries.Points.Add(point);
             }
@@ -296,20 +301,23 @@ namespace ProjectCSharp
             plotKhoanChi.Refresh();
 
         }
-
         private void btnChiTiet_Click(object sender, EventArgs e)
         {
-            
-            baocaochitiet baoCaoChiTiet = new baocaochitiet(_user);  
-
+            baocaochitiet baoCaoChiTiet = new baocaochitiet(_user);
             ShowUserControl(baoCaoChiTiet);
         }
+
         public void ShowUserControl(UserControl uc)
         {
             foreach (Control control in this.Controls)
             {
+                if (control.Tag == null)
+                {
+                    control.Tag = control.Visible;
+                }
                 control.Visible = false;
             }
+
             if (!this.Controls.Contains(uc))
             {
                 uc.Dock = DockStyle.Fill;

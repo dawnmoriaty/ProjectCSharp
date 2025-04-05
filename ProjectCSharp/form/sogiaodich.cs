@@ -132,7 +132,7 @@ namespace ProjectCSharp
 
         private void btnBaocao_Click(object sender, EventArgs e)
         {
-            BaoCao baoCaoForm = new BaoCao(_user); 
+            BaoCao baoCaoForm = new BaoCao(_user);
             baoCaoForm.Show();
             this.Hide();
         }

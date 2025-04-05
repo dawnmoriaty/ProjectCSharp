@@ -18,6 +18,5 @@ namespace ProjectCSharp.Model
         public string Description { get; set; }
         public int UserId { get; set; }
         public bool Status { get; set; } // true for active, false for inactive
-        public string Attachment { get; set; } // file path or URL to the attachment
     }
 }
