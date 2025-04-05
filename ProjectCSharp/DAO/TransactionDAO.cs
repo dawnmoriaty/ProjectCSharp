@@ -21,45 +21,72 @@ namespace ProjectCSharp.DAO
 
         public async Task<List<Transaction>> GetTransactionsAsync(int userId, DateTime fromDate, DateTime toDate)
         {
-            string query = @"
-            SELECT 
-            Id,
-            Amount,
-            TransactionDate,
-            Description,
-            UserId,
-            CategoryId,
-            Type,
-            Status,
-            Attachment
-            FROM Transactions 
-            WHERE UserId = @UserId AND TransactionDate BETWEEN @FromDate AND @ToDate";
-
-            var parameters = new MySqlParameter[]
-            {
-                new MySqlParameter("@UserId", userId),
-                new MySqlParameter("@FromDate", fromDate),
-                new MySqlParameter("@ToDate", toDate)
-            };
-
-            DataTable dataTable = await db.ExecuteQueryAsync(query, parameters);
             List<Transaction> transactions = new List<Transaction>();
-
-            foreach (DataRow row in dataTable.Rows)
+            MySqlConnection conn = null;
+            
+            try
             {
-                Transaction transaction = new Transaction
+                conn = ConnectDB.GetConnection();
+                
+                string query = @"
+                SELECT 
+                Id,
+                Amount,
+                TransactionDate,
+                Description,
+                UserId,
+                CategoryId
+                FROM Transactions 
+                WHERE UserId = @UserId AND TransactionDate BETWEEN @FromDate AND @ToDate";
+
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
                 {
-                    Id = Convert.ToInt32(row["Id"]),
-                    Amount = Convert.ToDecimal(row["Amount"]),
-                    TransactionDate = Convert.ToDateTime(row["TransactionDate"]),
-                    Description = row["Description"].ToString(),
-                    UserId = Convert.ToInt32(row["UserId"]),
-                    CategoryId = Convert.ToInt32(row["CategoryId"]), 
-                    Type = row["Type"].ToString(),
-                    Status = Convert.ToBoolean(row["Status"]), 
-                    Attachment = row["Attachment"] != DBNull.Value ? row["Attachment"].ToString() : null
-                };
-                transactions.Add(transaction);
+                    cmd.Parameters.AddWithValue("@UserId", userId);
+                    cmd.Parameters.AddWithValue("@FromDate", fromDate);
+                    cmd.Parameters.AddWithValue("@ToDate", toDate);
+                    
+                    // Sử dụng ExecuteReader thay vì ExecuteQueryAsync
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            try
+                            {
+                                Transaction transaction = new Transaction
+                                {
+                                    Id = reader.GetInt32("Id"),
+                                    Amount = reader.GetDecimal("Amount"),
+                                    TransactionDate = reader.GetDateTime("TransactionDate"),
+                                    Description = reader.IsDBNull(reader.GetOrdinal("Description")) ? "" : reader.GetString("Description"),
+                                    UserId = reader.GetInt32("UserId"),
+                                    CategoryId = reader.GetInt32("CategoryId")
+                                };
+                                transactions.Add(transaction);
+                            }
+                            catch (Exception ex)
+                            {
+                                // Ghi log lỗi khi chuyển đổi dữ liệu
+                                Console.WriteLine($"Lỗi khi chuyển đổi dữ liệu: {ex.Message}");
+                                // Tiếp tục với dòng tiếp theo
+                                continue;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Ghi log lỗi khi truy vấn dữ liệu
+                Console.WriteLine($"Lỗi khi truy vấn dữ liệu: {ex.Message}");
+                // Có thể ném lại exception hoặc trả về danh sách rỗng
+                // throw;
+            }
+            finally
+            {
+                if (conn != null)
+                {
+                    ConnectDB.CloseConnection(conn);
+                }
             }
 
             return transactions;

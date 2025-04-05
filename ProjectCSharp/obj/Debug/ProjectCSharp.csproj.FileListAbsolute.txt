@@ -103,3 +103,6 @@ C:\Users\JulyTus\Desktop\ProjectCSharp-julytus\ProjectCSharp\obj\Debug\ProjectCS
 C:\Users\JulyTus\Desktop\ProjectCSharp-julytus\ProjectCSharp\obj\Debug\ProjectCSharp.csproj.CoreCompileInputs.cache
 C:\Users\JulyTus\Desktop\ProjectCSharp-julytus\ProjectCSharp\obj\Debug\ProjectC.30D174BD.Up2Date
 C:\Users\JulyTus\Desktop\ProjectCSharp-julytus\ProjectCSharp\obj\Debug\ProjectCSharp.themgiaodich.resources
+C:\Users\JulyTus\Desktop\ProjectCSharp-julytus\ProjectCSharp\obj\Debug\ProjectCSharp.sogiaodich.resources
+C:\Users\JulyTus\Desktop\ProjectCSharp-julytus\ProjectCSharp\obj\Debug\ProjectCSharp.BaoCao.resources
+C:\Users\JulyTus\Desktop\ProjectCSharp-julytus\ProjectCSharp\obj\Debug\ProjectCSharp.baocaochitiet.resources
