@@ -53,57 +53,55 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(613, 65);
+            this.panel1.Size = new System.Drawing.Size(1218, 100);
             this.panel1.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(374, 42);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(703, 67);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 13);
+            this.label3.Size = new System.Drawing.Size(43, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "VNĐ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(224, 42);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(478, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
+            this.label2.Size = new System.Drawing.Size(65, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Số dư ví";
             // 
             // txtSodu
             // 
-            this.txtSodu.Location = new System.Drawing.Point(270, 39);
-            this.txtSodu.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtSodu.Location = new System.Drawing.Point(547, 62);
+            this.txtSodu.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtSodu.Name = "txtSodu";
-            this.txtSodu.Size = new System.Drawing.Size(101, 20);
+            this.txtSodu.ReadOnly = true;
+            this.txtSodu.Size = new System.Drawing.Size(150, 26);
             this.txtSodu.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(231, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(488, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 29);
+            this.label1.Size = new System.Drawing.Size(236, 37);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Sổ Giao Dịch";
+            this.label1.Text = "SỔ GIAO DỊCH";
             // 
             // btnPast
             // 
             this.btnPast.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
-            this.btnPast.Location = new System.Drawing.Point(71, 3);
-            this.btnPast.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnPast.Location = new System.Drawing.Point(145, 39);
+            this.btnPast.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btnPast.Name = "btnPast";
-            this.btnPast.Size = new System.Drawing.Size(67, 29);
+            this.btnPast.Size = new System.Drawing.Size(137, 45);
             this.btnPast.TabIndex = 2;
             this.btnPast.Text = "Tháng trước";
             this.btnPast.UseVisualStyleBackColor = false;
@@ -112,10 +110,10 @@
             // btnPresent
             // 
             this.btnPresent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
-            this.btnPresent.Location = new System.Drawing.Point(271, 3);
-            this.btnPresent.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnPresent.Location = new System.Drawing.Point(547, 39);
+            this.btnPresent.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btnPresent.Name = "btnPresent";
-            this.btnPresent.Size = new System.Drawing.Size(67, 29);
+            this.btnPresent.Size = new System.Drawing.Size(132, 45);
             this.btnPresent.TabIndex = 3;
             this.btnPresent.Text = "Tháng này";
             this.btnPresent.UseVisualStyleBackColor = false;
@@ -124,10 +122,10 @@
             // btnFuture
             // 
             this.btnFuture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
-            this.btnFuture.Location = new System.Drawing.Point(481, 3);
-            this.btnFuture.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnFuture.Location = new System.Drawing.Point(928, 39);
+            this.btnFuture.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btnFuture.Name = "btnFuture";
-            this.btnFuture.Size = new System.Drawing.Size(67, 29);
+            this.btnFuture.Size = new System.Drawing.Size(120, 45);
             this.btnFuture.TabIndex = 4;
             this.btnFuture.Text = "Tương lai";
             this.btnFuture.UseVisualStyleBackColor = false;
@@ -140,18 +138,18 @@
             this.panel2.Controls.Add(this.btnPast);
             this.panel2.Controls.Add(this.btnFuture);
             this.panel2.Controls.Add(this.btnPresent);
-            this.panel2.Location = new System.Drawing.Point(0, 65);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.panel2.Location = new System.Drawing.Point(0, 100);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(613, 339);
+            this.panel2.Size = new System.Drawing.Size(1218, 791);
             this.panel2.TabIndex = 1;
             // 
             // btnBaocao
             // 
-            this.btnBaocao.Location = new System.Drawing.Point(236, 293);
-            this.btnBaocao.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnBaocao.Location = new System.Drawing.Point(495, 674);
+            this.btnBaocao.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btnBaocao.Name = "btnBaocao";
-            this.btnBaocao.Size = new System.Drawing.Size(141, 27);
+            this.btnBaocao.Size = new System.Drawing.Size(212, 42);
             this.btnBaocao.TabIndex = 7;
             this.btnBaocao.Text = "Xem báo cáo giai đoạn này";
             this.btnBaocao.UseVisualStyleBackColor = true;
@@ -160,24 +158,24 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(2, 35);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.dataGridView1.Location = new System.Drawing.Point(145, 145);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(609, 235);
+            this.dataGridView1.Size = new System.Drawing.Size(903, 470);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // sogiaodich
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.Name = "sogiaodich";
-            this.Size = new System.Drawing.Size(613, 404);
+            this.Size = new System.Drawing.Size(1218, 891);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
