@@ -201,5 +201,33 @@ namespace ProjectCSharp.DAO
                 ConnectDB.CloseConnection(conn);
             }
         }
+
+        // Lấy BudgetId của user dựa trên UserId
+        public int? GetBudgetIdByUserId(int userId)
+        {
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string query = "SELECT Id FROM Budgets WHERE UserId = @userId";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@userId", userId);
+                
+                object result = cmd.ExecuteScalar();
+                if (result != null)
+                {
+                    return Convert.ToInt32(result);
+                }
+                return null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
     }
 }

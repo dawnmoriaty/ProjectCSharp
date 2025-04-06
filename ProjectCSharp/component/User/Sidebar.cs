@@ -39,12 +39,31 @@ namespace ProjectCSharp.Component.User
 
         private void btnsogiaodich_Click(object sender, EventArgs e)
         {
-            usersHome.ShowSoGiaoDich();
+            if (usersHome != null)
+            {
+                usersHome.ShowSoGiaoDich();
+            }
+            else
+            {
+                MessageBox.Show("Lỗi: UsersHome chưa được gán!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void btnHomeUser_Click(object sender, EventArgs e)
         {
             usersHome.ShowHomePage();
+        }
+
+        private void taogiaodich_Click(object sender, EventArgs e)
+        {
+            if (usersHome != null)
+            {
+                usersHome.ShowThemGiaoDich();
+            }
+            else
+            {
+                MessageBox.Show("Lỗi: UsersHome chưa được gán!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }
