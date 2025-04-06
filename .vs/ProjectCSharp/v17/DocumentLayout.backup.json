@@ -42,8 +42,7 @@
               "RelativeToolTip": "ProjectCSharp\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T05:15:41.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T05:15:41.434Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\UserDAO.cs",
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\UserDAO.cs",
               "RelativeToolTip": "ProjectCSharp\\DAO\\UserDAO.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFYAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T04:58:19.893Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "ProjectCSharp\\DAO\\TransactionDAO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:55:02.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:55:02.163Z"
             }
           ]
         }
