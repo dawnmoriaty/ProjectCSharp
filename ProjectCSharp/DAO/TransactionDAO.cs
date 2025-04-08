@@ -96,13 +96,14 @@ namespace ProjectCSharp.DAO
         {
             string query = @"
             SELECT 
-            TransactionDate AS Date, 
-            SUM(CASE WHEN Type = 'INCOME' THEN Amount ELSE 0 END) AS Income,
-            SUM(CASE WHEN Type = 'EXPENSE' THEN Amount ELSE 0 END) AS Expense
-            FROM Transactions
-            WHERE UserId = @UserId AND TransactionDate BETWEEN @FromDate AND @ToDate
-            GROUP BY TransactionDate
-            ORDER BY TransactionDate";
+            t.TransactionDate AS Date, 
+            SUM(CASE WHEN tc.Type = 'INCOME' THEN t.Amount ELSE 0 END) AS Income,
+            SUM(CASE WHEN tc.Type = 'EXPENSE' THEN t.Amount ELSE 0 END) AS Expense
+            FROM Transactions t
+            JOIN TransactionCategories tc ON t.CategoryId = tc.Id
+            WHERE t.UserId = @UserId AND t.TransactionDate BETWEEN @FromDate AND @ToDate
+            GROUP BY t.TransactionDate
+            ORDER BY t.TransactionDate";
 
             var parameters = new MySqlParameter[]
             {
@@ -120,7 +121,7 @@ namespace ProjectCSharp.DAO
             SELECT tc.Name AS CategoryName, SUM(t.Amount) AS Total
             FROM Transactions t
             JOIN TransactionCategories tc ON t.CategoryId = tc.Id
-            WHERE t.UserId = @UserId AND t.Type = 'INCOME' 
+            WHERE t.UserId = @UserId AND tc.Type = 'INCOME' 
             AND t.TransactionDate BETWEEN @FromDate AND @ToDate
             GROUP BY tc.Name";
 
@@ -140,7 +141,7 @@ namespace ProjectCSharp.DAO
             SELECT tc.Name AS CategoryName, SUM(t.Amount) AS Total
             FROM Transactions t
             JOIN TransactionCategories tc ON t.CategoryId = tc.Id
-            WHERE t.UserId = @UserId AND t.Type = 'EXPENSE' 
+            WHERE t.UserId = @UserId AND tc.Type = 'EXPENSE' 
             AND t.TransactionDate BETWEEN @FromDate AND @ToDate
             GROUP BY tc.Name";
 
