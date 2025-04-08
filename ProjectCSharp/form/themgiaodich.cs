@@ -22,11 +22,9 @@ namespace ProjectCSharp
             InitializeComponent();
             _user = user;
             _usersHome = usersHome;
-            
-            // Lấy dữ liệu categories và gán vào comboBox1
             LoadCategories();
             
-            cmbdanhmuc.SelectedIndexChanged += new EventHandler(comboBox1_SelectedIndexChanged);
+            cmbdanhmuc.SelectedIndexChanged += new EventHandler(cmbdanhmuc_SelectedIndexChanged);
         }
 
         private void LoadCategories()
@@ -47,11 +45,6 @@ namespace ProjectCSharp
             {
                 MessageBox.Show("Lỗi khi tải danh mục: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnClean_Click(object sender, EventArgs e)
@@ -231,6 +224,29 @@ namespace ProjectCSharp
             {
                 MessageBox.Show("Lỗi: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void radiothu_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radiothu.Checked)
+            {
+                TransactionCategoryDAO transactionCategoryDAO = new TransactionCategoryDAO();
+                transactionCategoryDAO.GetCategoriesByType("INCOME");
+            }
+        }
+
+        private void radiochi_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radiochi.Checked)
+            {
+                TransactionCategoryDAO transactionCategoryDAO = new TransactionCategoryDAO();
+                transactionCategoryDAO.GetCategoriesByType("EXPENSE");
+            }
+        }
+
+        private void cmbdanhmuc_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
