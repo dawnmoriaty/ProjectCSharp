@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ProjectCSharp
 {
@@ -25,7 +26,7 @@ namespace ProjectCSharp
             // Lấy dữ liệu categories và gán vào comboBox1
             LoadCategories();
             
-            comboBox1.SelectedIndexChanged += new EventHandler(comboBox1_SelectedIndexChanged);
+            cmbdanhmuc.SelectedIndexChanged += new EventHandler(comboBox1_SelectedIndexChanged);
         }
 
         private void LoadCategories()
@@ -37,10 +38,10 @@ namespace ProjectCSharp
                 List<TransactionCategory> categories = categoryDAO.GetAllCategories();
                 
                 // Tạo DataSource cho comboBox1
-                comboBox1.DataSource = categories;
-                comboBox1.DisplayMember = "Name"; // Hiển thị tên category
-                comboBox1.ValueMember = "Id";     // Giá trị là ID của category
-                comboBox1.SelectedIndex = -1;     // Không chọn giá trị nào mặc định
+                cmbdanhmuc.DataSource = categories;
+                cmbdanhmuc.DisplayMember = "Name"; // Hiển thị tên category
+                cmbdanhmuc.ValueMember = "Id";     // Giá trị là ID của category
+                cmbdanhmuc.SelectedIndex = -1;     // Không chọn giá trị nào mặc định
             }
             catch (Exception ex)
             {
@@ -56,7 +57,8 @@ namespace ProjectCSharp
         private void btnClean_Click(object sender, EventArgs e)
         {
             txtSotien.Clear();
-            comboBox1.SelectedIndex = -1;
+            cmbdanhmuc.SelectedIndex = -1;
+            txtchitiet.Clear();
         }
 
 
@@ -147,32 +149,19 @@ namespace ProjectCSharp
                 txtSotien.Text = txtSotien.Text.Remove(txtSotien.Text.Length - 1);
             }
         }
-
-        private void txtSotien_TextChanged(object sender, EventArgs e)
+        // đây là nút "="
+        private void btnXong_Click(object sender, EventArgs e)
         {
-            //đây là thông tin cho Amount
+            try
+            {
+                var result = new DataTable().Compute(txtSotien.Text, null);
+                txtSotien.Text = result.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Invalid expression: " + ex.Message);
+            }
         }
-
-        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-            // từ TransactionCategoryDAO lấy thông tin các category ra cho người dùng lựa chọn trong combobox, chọn tên category thì sẽ lấy id category để tạo transaction
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-            // đây là thông tin cho transactionDate
-        }
-
-        private void Description_TextChanged(object sender, EventArgs e)
-        {
-            // thông tin cho description
-        }
-
         private void btnSave_Click_1(object sender, EventArgs e)
         {
             try
@@ -183,7 +172,7 @@ namespace ProjectCSharp
                 txtSotien.Text = amount.ToString();
 
                 // Kiểm tra dữ liệu đầu vào
-                if (comboBox1.SelectedValue == null)
+                if (cmbdanhmuc.SelectedValue == null)
                 {
                     MessageBox.Show("Vui lòng chọn danh mục giao dịch!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -209,10 +198,10 @@ namespace ProjectCSharp
                 Transaction transaction = new Transaction
                 {
                     Amount = amount,
-                    CategoryId = Convert.ToInt32(comboBox1.SelectedValue),
+                    CategoryId = Convert.ToInt32(cmbdanhmuc.SelectedValue),
                     BudgetId = budgetId.Value,
                     TransactionDate = dateTimePicker1.Value,
-                    Description = Description.Text,
+                    Description = txtchitiet.Text,
                     UserId = _user.Id
                 };
 

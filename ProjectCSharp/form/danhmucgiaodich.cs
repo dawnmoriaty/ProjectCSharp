@@ -73,7 +73,7 @@ namespace ProjectCSharp
                 // Tạo danh mục mới
                 string result = categoryDAO.CreateCategory(
                     TenDanhMuc.Text.Trim(),
-                    textBox3.Text.Trim(),
+                    txtMota.Text.Trim(),
                     loaiDanhMuc.SelectedItem.ToString(),
                     false
                 );
@@ -106,7 +106,7 @@ namespace ProjectCSharp
                 {
                     var selectedCategory = categories[e.RowIndex];
                     TenDanhMuc.Text = selectedCategory.Name;
-                    textBox3.Text = selectedCategory.Description;
+                    txtMota.Text = selectedCategory.Description;
                     loaiDanhMuc.SelectedItem = selectedCategory.Type;
                 }
             }
@@ -138,7 +138,7 @@ namespace ProjectCSharp
                 string result = categoryDAO.UpdateCategory(
                     selectedCategory.Id,
                     TenDanhMuc.Text.Trim(),
-                    textBox3.Text.Trim()
+                    txtMota.Text.Trim()
                 );
 
                 if (result.StartsWith("Cập nhật danh mục thành công"))
@@ -209,7 +209,7 @@ namespace ProjectCSharp
         private void ClearForm()
         {
             TenDanhMuc.Clear();
-            textBox3.Clear();
+            txtMota.Clear();
             loaiDanhMuc.SelectedIndex = -1;
             dataGridViewDanhmuc.ClearSelection();
         }

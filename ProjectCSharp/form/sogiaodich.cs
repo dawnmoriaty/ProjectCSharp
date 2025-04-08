@@ -16,17 +16,6 @@ namespace ProjectCSharp
     public partial class sogiaodich : UserControl
     {
         private User _user;
-        private static sogiaodich _instance;
-
-        public static sogiaodich Instance
-        {
-            get
-            {
-                if (_instance == null || _instance.IsDisposed)
-                    _instance = new sogiaodich();
-                return _instance;
-            }
-        }
         public sogiaodich(User user)
         {
             InitializeComponent();
@@ -137,10 +126,6 @@ namespace ProjectCSharp
             this.Hide();
         }
 
-        private void txtWalletname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -158,7 +143,7 @@ namespace ProjectCSharp
                 if (budget != null)
                 {
                     // Hiển thị số dư trong txtSodu
-                    txtSodu.Text = budget.Amount.ToString("N0") + " VND";
+                    txtSodu.Text = budget.Amount.ToString() ;
                     
                 }
                 else
