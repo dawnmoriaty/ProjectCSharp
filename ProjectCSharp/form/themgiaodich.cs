@@ -195,6 +195,7 @@ namespace ProjectCSharp
                     BudgetId = budgetId.Value,
                     TransactionDate = dateTimePicker1.Value,
                     Description = txtchitiet.Text,
+                    Type = radiothu.Checked ? "INCOME" : "EXPENSE",
                     UserId = _user.Id
                 };
 
@@ -231,7 +232,7 @@ namespace ProjectCSharp
             if (radiothu.Checked)
             {
                 TransactionCategoryDAO transactionCategoryDAO = new TransactionCategoryDAO();
-                transactionCategoryDAO.GetCategoriesByType("INCOME");
+                List<TransactionCategory> categories = transactionCategoryDAO.GetCategoriesByType("INCOME");
             }
         }
 
@@ -240,7 +241,7 @@ namespace ProjectCSharp
             if (radiochi.Checked)
             {
                 TransactionCategoryDAO transactionCategoryDAO = new TransactionCategoryDAO();
-                transactionCategoryDAO.GetCategoriesByType("EXPENSE");
+                List<TransactionCategory> categories = transactionCategoryDAO.GetCategoriesByType("EXPENSE");
             }
         }
 
