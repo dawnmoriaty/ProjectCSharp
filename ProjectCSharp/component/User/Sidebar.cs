@@ -65,5 +65,10 @@ namespace ProjectCSharp.Component.User
                 MessageBox.Show("Lỗi: UsersHome chưa được gán!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void btnthuchi_Click(object sender, EventArgs e)
+        {
+            usersHome.ShowTongthuchi();
+        }
     }
 }

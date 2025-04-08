@@ -154,6 +154,12 @@
     <Compile Include="form\themgiaodich.Designer.cs">
       <DependentUpon>themgiaodich.cs</DependentUpon>
     </Compile>
+    <Compile Include="homepage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="homepage.Designer.cs">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Budget.cs" />
     <Compile Include="Model\Transaction.cs" />
     <Compile Include="Model\TransactionCategory.cs" />

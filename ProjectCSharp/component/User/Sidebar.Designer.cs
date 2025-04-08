@@ -43,10 +43,10 @@
             this.btnHomeUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnHomeUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomeUser.ForeColor = System.Drawing.Color.White;
-            this.btnHomeUser.Location = new System.Drawing.Point(16, 52);
-            this.btnHomeUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHomeUser.Location = new System.Drawing.Point(21, 173);
+            this.btnHomeUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHomeUser.Name = "btnHomeUser";
-            this.btnHomeUser.Size = new System.Drawing.Size(137, 34);
+            this.btnHomeUser.Size = new System.Drawing.Size(183, 42);
             this.btnHomeUser.TabIndex = 0;
             this.btnHomeUser.Text = "Tổng quan";
             this.btnHomeUser.UseVisualStyleBackColor = false;
@@ -57,10 +57,10 @@
             this.btnsogiaodich.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnsogiaodich.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsogiaodich.ForeColor = System.Drawing.Color.White;
-            this.btnsogiaodich.Location = new System.Drawing.Point(16, 90);
-            this.btnsogiaodich.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnsogiaodich.Location = new System.Drawing.Point(21, 238);
+            this.btnsogiaodich.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnsogiaodich.Name = "btnsogiaodich";
-            this.btnsogiaodich.Size = new System.Drawing.Size(137, 34);
+            this.btnsogiaodich.Size = new System.Drawing.Size(183, 42);
             this.btnsogiaodich.TabIndex = 1;
             this.btnsogiaodich.Text = "Sổ giao dịch";
             this.btnsogiaodich.UseVisualStyleBackColor = false;
@@ -71,23 +71,24 @@
             this.btnthuchi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnthuchi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthuchi.ForeColor = System.Drawing.Color.White;
-            this.btnthuchi.Location = new System.Drawing.Point(16, 325);
-            this.btnthuchi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnthuchi.Location = new System.Drawing.Point(21, 376);
+            this.btnthuchi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnthuchi.Name = "btnthuchi";
-            this.btnthuchi.Size = new System.Drawing.Size(137, 34);
+            this.btnthuchi.Size = new System.Drawing.Size(183, 42);
             this.btnthuchi.TabIndex = 2;
             this.btnthuchi.Text = "Tổng thu chi";
             this.btnthuchi.UseVisualStyleBackColor = false;
+            this.btnthuchi.Click += new System.EventHandler(this.btnthuchi_Click);
             // 
             // btnthongtin
             // 
             this.btnthongtin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnthongtin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthongtin.ForeColor = System.Drawing.Color.White;
-            this.btnthongtin.Location = new System.Drawing.Point(16, 392);
-            this.btnthongtin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnthongtin.Location = new System.Drawing.Point(21, 447);
+            this.btnthongtin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnthongtin.Name = "btnthongtin";
-            this.btnthongtin.Size = new System.Drawing.Size(137, 50);
+            this.btnthongtin.Size = new System.Drawing.Size(183, 42);
             this.btnthongtin.TabIndex = 3;
             this.btnthongtin.Text = "Tài Khoản";
             this.btnthongtin.UseVisualStyleBackColor = false;
@@ -96,10 +97,10 @@
             // btnPlus
             // 
             this.btnPlus.Image = ((System.Drawing.Image)(resources.GetObject("btnPlus.Image")));
-            this.btnPlus.Location = new System.Drawing.Point(16, 183);
-            this.btnPlus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPlus.Location = new System.Drawing.Point(44, 13);
+            this.btnPlus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPlus.Name = "btnPlus";
-            this.btnPlus.Size = new System.Drawing.Size(137, 111);
+            this.btnPlus.Size = new System.Drawing.Size(128, 128);
             this.btnPlus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnPlus.TabIndex = 4;
             this.btnPlus.TabStop = false;
@@ -109,10 +110,10 @@
             this.taogiaodich.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.taogiaodich.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taogiaodich.ForeColor = System.Drawing.Color.White;
-            this.taogiaodich.Location = new System.Drawing.Point(16, 128);
-            this.taogiaodich.Margin = new System.Windows.Forms.Padding(2);
+            this.taogiaodich.Location = new System.Drawing.Point(21, 304);
+            this.taogiaodich.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.taogiaodich.Name = "taogiaodich";
-            this.taogiaodich.Size = new System.Drawing.Size(137, 34);
+            this.taogiaodich.Size = new System.Drawing.Size(183, 42);
             this.taogiaodich.TabIndex = 5;
             this.taogiaodich.Text = "Tạo giao dịch";
             this.taogiaodich.UseVisualStyleBackColor = false;
@@ -120,7 +121,7 @@
             // 
             // Sidebar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.Controls.Add(this.taogiaodich);
@@ -129,9 +130,9 @@
             this.Controls.Add(this.btnthuchi);
             this.Controls.Add(this.btnsogiaodich);
             this.Controls.Add(this.btnHomeUser);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Sidebar";
-            this.Size = new System.Drawing.Size(173, 475);
+            this.Size = new System.Drawing.Size(231, 585);
             ((System.ComponentModel.ISupportInitialize)(this.btnPlus)).EndInit();
             this.ResumeLayout(false);
 

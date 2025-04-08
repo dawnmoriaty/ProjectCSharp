@@ -19,6 +19,7 @@ namespace ProjectCSharp
         private thongtincanhan thongtincanhan;
         private thaydoithongtincanhan thaydoithongtincanhan;
         private thaydoimatkhau thaydoimatkhau;
+        private homepage homepage;
 
         public UsersHome()
         {
@@ -89,11 +90,14 @@ namespace ProjectCSharp
 
         public void ShowHomePage()
         {
+            homepage = new homepage(_user, this);
+            ShowUserControl(homepage);
         }
         // chua có nè
         public void ShowTongthuchi()
         {
-
+            BaoCao baocao = new BaoCao(_user);
+            baocao.Show();
         }
 
         private void sidebar1_Load(object sender, EventArgs e)
