@@ -42,6 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewquanlydanhmuc = new System.Windows.Forms.DataGridView();
+            this.bntLoadDulieu = new System.Windows.Forms.Button();
             this.groupBoxthem.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewquanlydanhmuc)).BeginInit();
             this.SuspendLayout();
@@ -59,9 +60,9 @@
             this.groupBoxthem.Controls.Add(this.label2);
             this.groupBoxthem.Controls.Add(this.txtTendanhmuc);
             this.groupBoxthem.Controls.Add(this.label1);
-            this.groupBoxthem.Location = new System.Drawing.Point(39, 111);
+            this.groupBoxthem.Location = new System.Drawing.Point(20, 110);
             this.groupBoxthem.Name = "groupBoxthem";
-            this.groupBoxthem.Size = new System.Drawing.Size(408, 473);
+            this.groupBoxthem.Size = new System.Drawing.Size(403, 473);
             this.groupBoxthem.TabIndex = 0;
             this.groupBoxthem.TabStop = false;
             this.groupBoxthem.Text = "Danh mục";
@@ -84,6 +85,7 @@
             this.btnXoa.TabIndex = 9;
             this.btnXoa.Text = "Xoá danh mục";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -185,23 +187,34 @@
             // dataGridViewquanlydanhmuc
             // 
             this.dataGridViewquanlydanhmuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewquanlydanhmuc.Location = new System.Drawing.Point(511, 117);
+            this.dataGridViewquanlydanhmuc.Location = new System.Drawing.Point(429, 117);
             this.dataGridViewquanlydanhmuc.Name = "dataGridViewquanlydanhmuc";
             this.dataGridViewquanlydanhmuc.RowHeadersWidth = 51;
             this.dataGridViewquanlydanhmuc.RowTemplate.Height = 24;
-            this.dataGridViewquanlydanhmuc.Size = new System.Drawing.Size(359, 466);
+            this.dataGridViewquanlydanhmuc.Size = new System.Drawing.Size(600, 416);
             this.dataGridViewquanlydanhmuc.TabIndex = 3;
             this.dataGridViewquanlydanhmuc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewquanlydanhmuc_CellClick);
+            // 
+            // bntLoadDulieu
+            // 
+            this.bntLoadDulieu.Location = new System.Drawing.Point(539, 552);
+            this.bntLoadDulieu.Name = "bntLoadDulieu";
+            this.bntLoadDulieu.Size = new System.Drawing.Size(432, 31);
+            this.bntLoadDulieu.TabIndex = 4;
+            this.bntLoadDulieu.Text = "Tải dữ liệu danh mục";
+            this.bntLoadDulieu.UseVisualStyleBackColor = true;
+            this.bntLoadDulieu.Click += new System.EventHandler(this.bntLoadDulieu_Click);
             // 
             // quanlydanhmuc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.bntLoadDulieu);
             this.Controls.Add(this.dataGridViewquanlydanhmuc);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBoxthem);
             this.Name = "quanlydanhmuc";
-            this.Size = new System.Drawing.Size(917, 635);
+            this.Size = new System.Drawing.Size(1032, 754);
             this.Load += new System.EventHandler(this.quanlydanhmuc_Load);
             this.groupBoxthem.ResumeLayout(false);
             this.groupBoxthem.PerformLayout();
@@ -228,5 +241,6 @@
         private System.Windows.Forms.DataGridView DGVdanhmuc;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridViewquanlydanhmuc;
+        private System.Windows.Forms.Button bntLoadDulieu;
     }
 }

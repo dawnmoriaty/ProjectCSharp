@@ -91,9 +91,8 @@ namespace ProjectCSharp
         }
         private void quanlydanhmuc_Load(object sender, EventArgs e)
         {
-            LoadCategories(currentUser.Id);
+            
         }
-
         private void btnSua_Click(object sender, EventArgs e)
         {
             int categoryId = hiddenCategoryId;
@@ -136,6 +135,19 @@ namespace ProjectCSharp
                     rdThu.Checked = false; // Đảm bảo rdThu không được chọn
                 }
             }
+        }
+
+        private void bntLoadDulieu_Click(object sender, EventArgs e)
+        {
+            LoadCategories(currentUser.Id);
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            int categoryId = hiddenCategoryId; 
+            TransactionCategoryDAO categoryDAO = new TransactionCategoryDAO();
+            string resultMessage = categoryDAO.DeleteCategory(currentUser.Id, categoryId);
+            MessageBox.Show(resultMessage);
         }
     }
 }

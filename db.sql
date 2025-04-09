@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS `PersonalFinanceApp`;
+USE `PersonalFinanceApp`;
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
@@ -106,7 +108,8 @@ CREATE TABLE `Users` (
   `FullName` varchar(100) NOT NULL,
   `Email` varchar(100) NOT NULL,
   `UserRole` varchar(20) NOT NULL DEFAULT 'USER',
-  `CreatedAt` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+  `CreatedAt` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` boolean NOT NULL DEFAULT true
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --

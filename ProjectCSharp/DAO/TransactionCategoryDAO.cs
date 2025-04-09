@@ -101,6 +101,36 @@ namespace ProjectCSharp.DAO
                 ConnectDB.CloseConnection(conn);
             }
         }
+        public string DeleteCategory(int userId, int id)
+        {
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                // Xóa các khoản thu chi liên quan đến danh mục
+                string deleteTransactionsQuery = "DELETE FROM Transactions WHERE CategoryId = @id AND UserId = @userId";
+                MySqlCommand deleteTransactionsCmd = new MySqlCommand(deleteTransactionsQuery, conn);
+                deleteTransactionsCmd.Parameters.AddWithValue("@id", id);
+                deleteTransactionsCmd.Parameters.AddWithValue("@userId", userId);
+                deleteTransactionsCmd.ExecuteNonQuery(); // Xóa các khoản thu chi liên quan
+
+                // Xóa danh mục
+                string deleteCategoryQuery = "DELETE FROM TransactionCategories WHERE Id = @id AND UserId = @userId";
+                MySqlCommand deleteCategoryCmd = new MySqlCommand(deleteCategoryQuery, conn);
+                deleteCategoryCmd.Parameters.AddWithValue("@id", id);
+                deleteCategoryCmd.Parameters.AddWithValue("@userId", userId);
+
+                int rowsAffected = deleteCategoryCmd.ExecuteNonQuery();
+                return rowsAffected > 0 ? "Xóa danh mục thành công" : "Không thể xóa danh mục";
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
         //===================================== Dang lam ==========================================
         //public string CreateCategory(string name, string description, string type, bool isDefault = false)
         //{
