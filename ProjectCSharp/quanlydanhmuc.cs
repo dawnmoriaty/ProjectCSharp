@@ -69,24 +69,50 @@ namespace ProjectCSharp
         }
         private void LoadCategories(int userId)
         {
-            TransactionCategoryDAO categoryDAO = new TransactionCategoryDAO();
-            List<TransactionCategory> categories = categoryDAO.GetCategoriesByUserId(userId);
-
-            // Xóa các hàng cũ trong DataGridView trước khi thêm mới
-            dataGridViewquanlydanhmuc.Rows.Clear();
-
-            // Thêm từng hàng vào DataGridView
-            foreach (var category in categories)
+            try
             {
-                int rowIndex = dataGridViewquanlydanhmuc.Rows.Add(); // Thêm hàng mới
-                DataGridViewRow newRow = dataGridViewquanlydanhmuc.Rows[rowIndex];
+                // Create an instance of DAO and fetch categories
+                TransactionCategoryDAO categoryDAO = new TransactionCategoryDAO();
+                List<TransactionCategory> categories = categoryDAO.GetCategoriesByUserId(userId);
 
-                // Gán giá trị cho từng cột
-                newRow.Cells["Id"].Value = category.Id;
-                newRow.Cells["Name"].Value = category.Name;
-                newRow.Cells["Description"].Value = category.Description;
-                newRow.Cells["Type"].Value = category.Type;
-                newRow.Cells["CreatedDate"].Value = category.CreatedDate;
+                // Check if categories list is null or empty
+                if (categories == null || categories.Count == 0)
+                {
+                    MessageBox.Show("No categories found for the specified user.", "Information",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                // Configure DataGridView columns dynamically if not already configured
+                if (dataGridViewquanlydanhmuc.Columns.Count == 0)
+                {
+                    dataGridViewquanlydanhmuc.Columns.Add("Id", "ID");
+                    dataGridViewquanlydanhmuc.Columns.Add("Name", "Name");
+                    dataGridViewquanlydanhmuc.Columns.Add("Description", "Description");
+                    dataGridViewquanlydanhmuc.Columns.Add("Type", "Type");
+                    dataGridViewquanlydanhmuc.Columns.Add("CreatedDate", "Created Date");
+                }
+
+                // Clear existing rows in the DataGridView
+                dataGridViewquanlydanhmuc.Rows.Clear();
+
+                // Add rows to the DataGridView
+                foreach (var category in categories)
+                {
+                    int rowIndex = dataGridViewquanlydanhmuc.Rows.Add(); // Add new row
+                    var row = dataGridViewquanlydanhmuc.Rows[rowIndex];
+
+                    row.Cells["Id"].Value = category.Id;
+                    row.Cells["Name"].Value = category.Name;
+                    row.Cells["Description"].Value = category.Description;
+                    row.Cells["Type"].Value = category.Type;
+                    row.Cells["CreatedDate"].Value = category.CreatedDate.ToString("yyyy-MM-dd");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading categories: " + ex.Message, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void quanlydanhmuc_Load(object sender, EventArgs e)

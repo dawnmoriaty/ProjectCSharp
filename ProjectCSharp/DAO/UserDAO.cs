@@ -27,16 +27,28 @@ namespace ProjectCSharp.DAO
             MySqlConnection conn = ConnectDB.GetConnection();
             try
             {
-                string query = "SELECT PasswordHash FROM Users WHERE UserName = @userName AND UserRole = @userRole";
+                string query = "SELECT PasswordHash,Status FROM Users WHERE UserName = @userName AND UserRole = @userRole";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@userName", username);
                 cmd.Parameters.AddWithValue("@userRole", userRole);
 
-                object result = cmd.ExecuteScalar();
-                if (result != null)
+                using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    string storedHashedPassword = result.ToString();
-                    return VerifyPassword(password, storedHashedPassword);
+                    if (reader.Read())
+                    {
+                        // Kiểm tra trạng thái tài khoản
+                        bool status = reader.GetBoolean("Status");
+                        if (!status) // Nếu trạng thái là 0 (false)
+                        {
+                            MessageBox.Show("Tài khoản đã bị vô hiệu hóa. Không thể đăng nhập.", "Thông báo",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return false;
+                        }
+
+                        // Xác minh mật khẩu
+                        string storedHashedPassword = reader.GetString("PasswordHash");
+                        return VerifyPassword(password, storedHashedPassword);
+                    }
                 }
 
                 return false;
@@ -260,7 +272,7 @@ namespace ProjectCSharp.DAO
             MySqlConnection conn = ConnectDB.GetConnection();
             try
             {
-                string query = "SELECT Id, UserName, FullName, Email, UserRole FROM Users";
+                string query = "SELECT Id, UserName, FullName, Email, UserRole, Status FROM Users";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
@@ -271,7 +283,8 @@ namespace ProjectCSharp.DAO
                         UserName = reader.GetString("UserName"),
                         FullName = reader.GetString("FullName"),
                         Email = reader.GetString("Email"),
-                        UserRole = reader.GetString("UserRole")
+                        UserRole = reader.GetString("UserRole"),
+                        Status = reader.GetBoolean("Status")
                     });
                 }
                 return users;
@@ -286,5 +299,30 @@ namespace ProjectCSharp.DAO
                 ConnectDB.CloseConnection(conn);
             }
         }
+        //cap nhat trang thai
+        public string UpdateUserStatus(int userId, bool status)
+        {
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string query = "UPDATE Users SET Status = @Status WHERE Id = @UserId";
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@UserId", userId);
+                cmd.Parameters.AddWithValue("@Status", status);
+
+                int rowsAffected = cmd.ExecuteNonQuery();
+                return rowsAffected > 0 ? "Success" : "Failed";
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message); // Ghi nhật ký lỗi (nếu cần)
+                return "Error";
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
+
     }
 }
