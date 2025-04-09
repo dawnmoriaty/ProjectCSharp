@@ -101,11 +101,10 @@ namespace ProjectCSharp
             homepage = new homepage(_user, this);
             ShowUserControl(homepage);
         }
-        // chua có nè
-        public void ShowTongthuchi()
+        public void ShowBaocao()
         {
-            //BaoCao baocao = new BaoCao(_user);
-            //baocao.Show();
+            BaoCao baocao = new BaoCao(_user);
+            baocao.Show();
         }
 
         

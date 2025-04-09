@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\",
+  "WorkspaceRootPath": "D:\\prjCSharp\\ProjectCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|c:\\users\\julytus\\desktop\\a\\projectcsharp\\projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\projectcsharp\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\projectcsharp\\utils\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\utils\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\utils\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\projectcsharp\\model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\model\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\model\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,31 +42,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ConnectDB.cs",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\utils\\ConnectDB.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\utils\\ConnectDB.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\utils\\ConnectDB.cs",
-              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\utils\\ConnectDB.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\utils\\ConnectDB.cs",
               "RelativeToolTip": "ProjectCSharp\\utils\\ConnectDB.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwA0AAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T17:17:58.408Z"
+              "WhenOpened": "2025-04-09T17:17:58.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\Model\\Transaction.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\Model\\Transaction.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\Model\\Transaction.cs",
-              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\Model\\Transaction.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\Model\\Transaction.cs",
               "RelativeToolTip": "ProjectCSharp\\Model\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,34 +79,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "sogiaodich.cs",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\form\\sogiaodich.cs",
-              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
               "RelativeToolTip": "ProjectCSharp\\form\\sogiaodich.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAqwKsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T17:02:02.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "sogiaodich.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\form\\sogiaodich.cs",
               "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\form\\sogiaodich.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T17:01:57.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdminHome.cs",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\form\\AdminHome.cs",
-              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
               "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAArwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,9 +115,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Budget.cs",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\Model\\Budget.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\Model\\Budget.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\Model\\Budget.cs",
-              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\Model\\Budget.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\Model\\Budget.cs",
               "RelativeToolTip": "ProjectCSharp\\Model\\Budget.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,24 +125,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TransactionDAO.cs",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\TransactionDAO.cs",
-              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs",
               "RelativeToolTip": "ProjectCSharp\\DAO\\TransactionDAO.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAiwN8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABsBAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T08:15:07.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "quanlydanhmuc.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.Designer.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.Designer.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.Designer.cs",
-              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.Designer.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.Designer.cs",
               "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.Designer.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAASwPAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

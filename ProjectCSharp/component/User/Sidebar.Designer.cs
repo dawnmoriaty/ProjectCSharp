@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sidebar));
             this.btnHomeUser = new System.Windows.Forms.Button();
             this.btnsogiaodich = new System.Windows.Forms.Button();
-            this.btnthuchi = new System.Windows.Forms.Button();
+            this.btnbaocao = new System.Windows.Forms.Button();
             this.btnthongtin = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.PictureBox();
             this.taogiaodich = new System.Windows.Forms.Button();
@@ -67,19 +67,19 @@
             this.btnsogiaodich.UseVisualStyleBackColor = false;
             this.btnsogiaodich.Click += new System.EventHandler(this.btnsogiaodich_Click);
             // 
-            // btnthuchi
+            // btnbaocao
             // 
-            this.btnthuchi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
-            this.btnthuchi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnthuchi.ForeColor = System.Drawing.Color.White;
-            this.btnthuchi.Location = new System.Drawing.Point(21, 376);
-            this.btnthuchi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnthuchi.Name = "btnthuchi";
-            this.btnthuchi.Size = new System.Drawing.Size(183, 42);
-            this.btnthuchi.TabIndex = 2;
-            this.btnthuchi.Text = "Tổng thu chi";
-            this.btnthuchi.UseVisualStyleBackColor = false;
-            this.btnthuchi.Click += new System.EventHandler(this.btnthuchi_Click);
+            this.btnbaocao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
+            this.btnbaocao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbaocao.ForeColor = System.Drawing.Color.White;
+            this.btnbaocao.Location = new System.Drawing.Point(21, 376);
+            this.btnbaocao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnbaocao.Name = "btnbaocao";
+            this.btnbaocao.Size = new System.Drawing.Size(183, 42);
+            this.btnbaocao.TabIndex = 2;
+            this.btnbaocao.Text = "Báo cáo";
+            this.btnbaocao.UseVisualStyleBackColor = false;
+            this.btnbaocao.Click += new System.EventHandler(this.btnthuchi_Click);
             // 
             // btnthongtin
             // 
@@ -143,7 +143,7 @@
             this.Controls.Add(this.taogiaodich);
             this.Controls.Add(this.btnPlus);
             this.Controls.Add(this.btnthongtin);
-            this.Controls.Add(this.btnthuchi);
+            this.Controls.Add(this.btnbaocao);
             this.Controls.Add(this.btnsogiaodich);
             this.Controls.Add(this.btnHomeUser);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -158,7 +158,7 @@
 
         private System.Windows.Forms.Button btnHomeUser;
         private System.Windows.Forms.Button btnsogiaodich;
-        private System.Windows.Forms.Button btnthuchi;
+        private System.Windows.Forms.Button btnbaocao;
         private System.Windows.Forms.Button btnthongtin;
         private System.Windows.Forms.PictureBox btnPlus;
         private System.Windows.Forms.Button taogiaodich;

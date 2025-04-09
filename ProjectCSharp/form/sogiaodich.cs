@@ -17,7 +17,10 @@ namespace ProjectCSharp
     {
         private User _user;
         private TransactionDAO _transactionDAO;
-
+        public sogiaodich()
+        {
+            InitializeComponent();
+        }   
         public sogiaodich(User user)
         {
             InitializeComponent();

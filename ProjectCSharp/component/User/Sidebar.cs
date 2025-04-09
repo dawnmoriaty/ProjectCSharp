@@ -68,7 +68,7 @@ namespace ProjectCSharp.Component.User
 
         private void btnthuchi_Click(object sender, EventArgs e)
         {
-            usersHome.ShowTongthuchi();
+            usersHome.ShowBaocao();
         }
 
         private void btnquanlydanhmuc_Click(object sender, EventArgs e)
