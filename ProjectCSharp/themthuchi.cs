@@ -53,14 +53,120 @@ namespace ProjectCSharp
                 cbDanhmuc.Items.Add(category.Item2);
             }
         }
+        private void LoadTransactions(string type = null)
+        {
+            try
+            {
+                DGVthuchi.DataSource = null;
+                DGVthuchi.Columns.Clear();
+
+                // Tạo các cột
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "Id",
+                    HeaderText = "ID",
+                    Name = "Id"
+                });
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "Amount",
+                    HeaderText = "Số tiền",
+                    Name = "Amount"
+                });
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "CategoryName",
+                    HeaderText = "Danh mục",
+                    Name = "CategoryName"
+                });
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "Description",
+                    HeaderText = "Mô tả",
+                    Name = "Description"
+                });
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "TransactionDate",
+                    HeaderText = "Ngày giao dịch",
+                    Name = "TransactionDate",
+                    DefaultCellStyle = new DataGridViewCellStyle { Format = "dd/MM/yyyy" }
+                });
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "BudgetId",
+                    HeaderText = "Ngân sách ID",
+                    Name = "BudgetId"
+                });
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "UserId",
+                    HeaderText = "Người dùng ID",
+                    Name = "UserId"
+                });
+                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
+                {
+                    DataPropertyName = "CategoryId",
+                    HeaderText = "Category ID",
+                    Name = "CategoryId"
+                });
+
+                // Lấy danh sách giao dịch
+                List<Transaction> transactions = transactionDAO.GetTransactionsByUserId(currentUser.Id);
+                if (transactions == null || transactions.Count == 0)
+                {
+                    MessageBox.Show("Không có giao dịch nào cho người dùng này.");
+                    return;
+                }
+
+                // Tải danh mục
+                if (type != null)
+                {
+                    LoadCategories(type); 
+                }
+                else
+                {
+                    LoadCategories(); 
+                }
+
+                // Lọc giao dịch dựa trên danh mục đã tải
+                var filteredTransactions = transactions.Where(t => category.Any(c => c.Item1 == t.CategoryId)).ToList();
+
+                if (filteredTransactions.Count == 0)
+                {
+                    MessageBox.Show($"Không có giao dịch nào thuộc danh mục đã tải.");
+                    return;
+                }
+
+                // Chuẩn bị dữ liệu hiển thị
+                var displayTransactions = filteredTransactions.Select(t => new
+                {
+                    t.Id,
+                    t.Amount,
+                    CategoryName = category.FirstOrDefault(c => c.Item1 == t.CategoryId)?.Item2 ?? "Không xác định",
+                    t.Description,
+                    t.TransactionDate,
+                    t.BudgetId,
+                    t.UserId,
+                    t.CategoryId
+                }).ToList();
+
+                DGVthuchi.AutoGenerateColumns = false;
+                DGVthuchi.DataSource = displayTransactions;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải dữ liệu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         private void btnHienthithu_Click(object sender, EventArgs e)
         {
-            LoadCategories("INCOME");
+            LoadTransactions("INCOME");
         }
 
         private void btnhienthichitien_Click(object sender, EventArgs e)
         {
-            LoadCategories("EXPENSE");
+            LoadTransactions("EXPENSE");
         }
 
         private void btnXacnhan_Click(object sender, EventArgs e)
@@ -88,9 +194,6 @@ namespace ProjectCSharp
                 Console.WriteLine("Giá trị không hợp lệ");
             }
         }
-
-        
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             amount.Clear();
@@ -100,92 +203,52 @@ namespace ProjectCSharp
 
         private void btnCapnhat_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (selectedTransactionId == 0)
+                {
+                    MessageBox.Show("Vui lòng chọn một giao dịch để cập nhật!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
+                decimal amountValue;
+                if (!decimal.TryParse(amount.Text, out amountValue))
+                {
+                    MessageBox.Show("Số tiền không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (cbDanhmuc.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Vui lòng chọn danh mục!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                int categoryId = category[cbDanhmuc.SelectedIndex].Item1;
+                int budgetId = budgetDAO.GetBudgetIdByUserId(currentUser.Id).Value;
+                string descr = description.Text;
+
+                bool result = transactionDAO.UpdateTransaction(selectedTransactionId, amountValue, categoryId, budgetId, descr);
+                if (result)
+                {
+                    MessageBox.Show("Cập nhật giao dịch thành công!");
+                    btnLoaddulieu_Click(sender, e);
+                    btnClear_Click(sender, e);
+                }
+                else
+                {
+                    MessageBox.Show("Cập nhật giao dịch thất bại!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi cập nhật: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnLoaddulieu_Click(object sender, EventArgs e)
         {
-            try
-            {
-                DGVthuchi.DataSource = null; 
-                DGVthuchi.Columns.Clear();
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "Id", 
-                    HeaderText = "ID",
-                    Name = "Id"
-                });
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "Amount",
-                    HeaderText = "Số tiền",
-                    Name = "Amount"
-                });
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "CategoryName", 
-                    HeaderText = "Danh mục",
-                    Name = "CategoryName"
-                });
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "Description",
-                    HeaderText = "Mô tả",
-                    Name = "Description"
-                });
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "TransactionDate",
-                    HeaderText = "Ngày giao dịch",
-                    Name = "TransactionDate",
-                    DefaultCellStyle = new DataGridViewCellStyle { Format = "dd/MM/yyyy" } 
-                });
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "BudgetId",
-                    HeaderText = "Ngân sách ID",
-                    Name = "BudgetId"
-                });
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "UserId",
-                    HeaderText = "Người dùng ID",
-                    Name = "UserId"
-                });
-                DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
-                {
-                    DataPropertyName = "CategoryId",
-                    HeaderText = "Category ID",
-                    Name = "CategoryId"
-                });
-                List<Transaction> transactions = transactionDAO.GetTransactionsByUserId(currentUser.Id);
-                if (transactions == null || transactions.Count == 0)
-                {
-                    MessageBox.Show("Không có giao dịch nào cho người dùng này.");
-                    return;
-                }
-                if (category == null || category.Count == 0)
-                {
-                    LoadCategories(); 
-                }
-                var displayTransactions = transactions.Select(t => new
-                {
-                    t.Id,
-                    t.Amount,
-                    CategoryName = category.FirstOrDefault(c => c.Item1 == t.CategoryId)?.Item2 ?? "Không xác định",
-                    t.Description,
-                    t.TransactionDate,
-                    t.BudgetId,
-                    t.UserId,
-                    t.CategoryId
-                }).ToList();
-                DGVthuchi.AutoGenerateColumns = false; 
-                DGVthuchi.DataSource = displayTransactions;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi khi tải dữ liệu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            LoadTransactions();
         }
 
 
@@ -207,6 +270,42 @@ namespace ProjectCSharp
                 }
 
                 selectedTransactionId = Convert.ToInt32(row.Cells["Id"].Value);
+            }
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Kiểm tra xem đã chọn giao dịch chưa
+                if (selectedTransactionId == 0)
+                {
+                    MessageBox.Show("Vui lòng chọn một giao dịch để xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                DialogResult confirm = MessageBox.Show($"Bạn có chắc muốn xóa giao dịch ID: {selectedTransactionId}?",
+                                                      "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirm != DialogResult.Yes)
+                {
+                    return; 
+                }
+
+                // Gọi DAO để xóa giao dịch
+                bool result = transactionDAO.DeleteTransaction(selectedTransactionId);
+                if (result)
+                {
+                    MessageBox.Show("Xóa giao dịch thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    btnLoaddulieu_Click(sender, e); 
+                    btnClear_Click(sender, e); 
+                }
+                else
+                {
+                    MessageBox.Show("Xóa giao dịch thất bại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi xóa giao dịch: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

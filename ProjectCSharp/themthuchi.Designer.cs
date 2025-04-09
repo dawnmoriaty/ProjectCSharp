@@ -159,6 +159,7 @@
             this.btnXoa.TabIndex = 14;
             this.btnXoa.Text = "Xoá";
             this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnCapnhat
             // 

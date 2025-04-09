@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using ProjectCSharp.Model;
 using ProjectCSharp.Utils;
@@ -90,7 +91,7 @@ namespace ProjectCSharp.DAO
             try
             {
                 string updateQuery = "UPDATE Transactions SET Amount = @amount, CategoryId = @categoryId, BudgetId = @budgetId, " +
-                                     "Description = @description WHERE TransactionId = @transactionId";
+                                     "Description = @description WHERE Id = @transactionId"; // Giả sử cột là Id
 
                 MySqlCommand cmd = new MySqlCommand(updateQuery, conn);
                 cmd.Parameters.AddWithValue("@amount", Amount);
@@ -109,7 +110,34 @@ namespace ProjectCSharp.DAO
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Lỗi: " + ex.Message);
+                MessageBox.Show("Lỗi khi cập nhật giao dịch: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+        }
+        public bool DeleteTransaction(int transactionId)
+        {
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string deleteQuery = "DELETE FROM Transactions WHERE Id = @Id"; 
+                MySqlCommand cmd = new MySqlCommand(deleteQuery, conn);
+                cmd.Parameters.AddWithValue("@transactionId", transactionId);
+
+                if (conn.State != ConnectionState.Open)
+                {
+                    conn.Open();
+                }
+
+                int rowsAffected = cmd.ExecuteNonQuery();
+                return rowsAffected > 0; // Trả về true nếu xóa thành công
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi xóa giao dịch: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
             finally
