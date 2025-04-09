@@ -3,51 +3,51 @@
   "WorkspaceRootPath": "D:\\prjCSharp\\ProjectCSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\dao\\transactioncategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\dao\\transactioncategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\transactioncategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
@@ -75,8 +75,7 @@
               "ViewState": "AgIAAEMAAAAAAAAAAAAqwGsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T02:20:35.336Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "ProjectCSharp\\form\\Home.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAUwHYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:38:02.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:38:02.971Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.Designer.cs",
               "ViewState": "AgIAAOUAAAAAAAAAAAAUwPAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:37:43.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:37:43.076Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "ProjectCSharp\\form\\sogiaodich.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAIwH0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:36:10.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:36:10.215Z"
             },
             {
               "$type": "Document",
@@ -134,8 +130,7 @@
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:34:13.771Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-09T02:34:13.771Z"
             },
             {
               "$type": "Document",
@@ -147,8 +142,7 @@
               "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:32:40.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:32:40.531Z"
             },
             {
               "$type": "Document",
@@ -160,8 +154,7 @@
               "RelativeToolTip": "ProjectCSharp\\component\\User\\Sidebar.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:23:13.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:23:13.663Z"
             },
             {
               "$type": "Document",
@@ -172,8 +165,7 @@
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\UsersHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:18:21.716Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-09T02:18:21.716Z"
             },
             {
               "$type": "Document",
@@ -184,8 +176,7 @@
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\component\\User\\Sidebar.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\component\\User\\Sidebar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:17:23.073Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-09T02:17:23.073Z"
             },
             {
               "$type": "Document",
@@ -197,33 +188,31 @@
               "RelativeToolTip": "ProjectCSharp\\Model\\TransactionCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:41:00.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T01:41:00.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "quanlydanhmuc.cs",
               "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.cs",
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
               "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAUwFAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T18:35:15.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "quanlydanhmuc.cs [Design]",
               "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.cs",
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:30:04.645Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-08T18:30:04.645Z"
             },
             {
               "$type": "Document",
@@ -235,8 +224,7 @@
               "RelativeToolTip": "ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:27:05.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T18:27:05.242Z"
             }
           ]
         }

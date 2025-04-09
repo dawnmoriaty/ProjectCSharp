@@ -214,7 +214,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBoxthem);
             this.Name = "quanlydanhmuc";
-            this.Size = new System.Drawing.Size(1032, 754);
+            this.Size = new System.Drawing.Size(1061, 754);
             this.Load += new System.EventHandler(this.quanlydanhmuc_Load);
             this.groupBoxthem.ResumeLayout(false);
             this.groupBoxthem.PerformLayout();
