@@ -108,6 +108,7 @@
     <Compile Include="component\User\Sidebar.Designer.cs">
       <DependentUpon>Sidebar.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\TransactionDAO.cs" />
     <Compile Include="form\AdminHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +159,12 @@
     <Compile Include="thaydoithongtincanhan.Designer.cs">
       <DependentUpon>thaydoithongtincanhan.cs</DependentUpon>
     </Compile>
+    <Compile Include="themthuchi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="themthuchi.Designer.cs">
+      <DependentUpon>themthuchi.cs</DependentUpon>
+    </Compile>
     <Compile Include="thongtincanhan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -201,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="thaydoithongtincanhan.resx">
       <DependentUpon>thaydoithongtincanhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themthuchi.resx">
+      <DependentUpon>themthuchi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="thongtincanhan.resx">
       <DependentUpon>thongtincanhan.cs</DependentUpon>

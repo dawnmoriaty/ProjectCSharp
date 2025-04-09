@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\prjCSharp\\ProjectCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -65,6 +65,14 @@
           "SelectedChildIndex": 12,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "UsersHome.cs",
@@ -76,14 +84,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T02:20:35.336Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -107,8 +107,7 @@
               "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.Designer.cs",
               "ViewState": "AgIAAOUAAAAAAAAAAAAUwPAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:37:43.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:37:43.076Z"
             },
             {
               "$type": "Document",
@@ -199,7 +198,7 @@
               "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.cs",
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
               "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAFAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T18:35:15.091Z",
               "EditorCaption": ""
@@ -213,8 +212,7 @@
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:30:04.645Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-08T18:30:04.645Z"
             },
             {
               "$type": "Document",

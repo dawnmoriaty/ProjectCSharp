@@ -3,56 +3,32 @@
   "WorkspaceRootPath": "D:\\prjCSharp\\ProjectCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|d:\\prjcsharp\\projectcsharp\\projectcsharp\\dao\\transactioncategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\transactioncategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\sogiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\dao\\transactioncategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\transactioncategorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|D:\\prjCSharp\\ProjectCSharp\\projectcsharp\\model\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\model\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +38,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsersHome.cs",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAqwGsAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "themthuchi.cs [Design]",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\themthuchi.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs [Design]",
+              "RelativeToolTip": "ProjectCSharp\\themthuchi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:20:35.336Z",
-              "IsPinned": true
+              "WhenOpened": "2025-04-09T07:33:31.139Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionDAO.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "RelativeToolTip": "ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T08:15:07.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionCategoryDAO.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
+              "RelativeToolTip": "ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAwJUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T08:08:13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "themthuchi.cs",
+              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\themthuchi.cs",
+              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs",
+              "RelativeToolTip": "ProjectCSharp\\themthuchi.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T07:59:42.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -87,144 +102,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Home.cs",
               "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\Home.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\form\\Home.cs",
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\Home.cs",
               "RelativeToolTip": "ProjectCSharp\\form\\Home.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAUwHYAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwHYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:38:02.971Z"
+              "WhenOpened": "2025-04-09T02:38:02.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "quanlydanhmuc.Designer.cs",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.Designer.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.Designer.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.Designer.cs",
-              "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.Designer.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAUwPAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:37:43.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "sogiaodich.cs",
               "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\form\\sogiaodich.cs",
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\sogiaodich.cs",
               "RelativeToolTip": "ProjectCSharp\\form\\sogiaodich.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAIwH0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:36:10.215Z"
+              "WhenOpened": "2025-04-09T02:36:10.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "AdminHome.cs [Design]",
               "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
               "RelativeDocumentMoniker": "ProjectCSharp\\form\\AdminHome.cs",
               "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs [Design]",
               "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:34:13.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminHome.cs",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\form\\AdminHome.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
-              "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:32:40.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sidebar.cs",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\component\\User\\Sidebar.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\component\\User\\Sidebar.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\component\\User\\Sidebar.cs",
-              "RelativeToolTip": "ProjectCSharp\\component\\User\\Sidebar.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:23:13.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsersHome.cs [Design]",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:18:21.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Sidebar.cs [Design]",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\component\\User\\Sidebar.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\component\\User\\Sidebar.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\component\\User\\Sidebar.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\component\\User\\Sidebar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:17:23.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TransactionCategory.cs",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\Model\\TransactionCategory.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\Model\\TransactionCategory.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\Model\\TransactionCategory.cs",
-              "RelativeToolTip": "ProjectCSharp\\Model\\TransactionCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:41:00.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "quanlydanhmuc.cs",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
-              "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:35:15.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "quanlydanhmuc.cs [Design]",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:30:04.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TransactionCategoryDAO.cs",
-              "DocumentMoniker": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
-              "RelativeToolTip": "ProjectCSharp\\DAO\\TransactionCategoryDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:27:05.242Z"
+              "WhenOpened": "2025-04-09T02:34:13.771Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -131,7 +131,39 @@ namespace ProjectCSharp.DAO
                 ConnectDB.CloseConnection(conn);
             }
         }
+        public List<Tuple<int, string>> GetCategoryNames(int userId, string type)
+        {
+            List<Tuple<int, string>> categoryNames = new List<Tuple<int, string>>();
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string selectQuery = "SELECT Id, Name FROM TransactionCategories WHERE UserId = @userId AND Type = @type";
+                MySqlCommand cmd = new MySqlCommand(selectQuery, conn);
+                cmd.Parameters.AddWithValue("@userId", userId);
+                cmd.Parameters.AddWithValue("@type", type);
+
+                conn.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    int id = Convert.ToInt32(reader["Id"]); 
+                    string name = reader["Name"].ToString(); 
+                    categoryNames.Add(new Tuple<int, string>(id, name)); // Thêm vào danh sách
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi nếu cần
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+            return categoryNames;
+        }
         //===================================== Dang lam ==========================================
-        
+
     }
 }

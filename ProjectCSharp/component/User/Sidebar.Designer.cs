@@ -116,7 +116,7 @@
             this.taogiaodich.Name = "taogiaodich";
             this.taogiaodich.Size = new System.Drawing.Size(183, 42);
             this.taogiaodich.TabIndex = 5;
-            this.taogiaodich.Text = "Tạo giao dịch";
+            this.taogiaodich.Text = "Tạo thu chi ";
             this.taogiaodich.UseVisualStyleBackColor = false;
             this.taogiaodich.Click += new System.EventHandler(this.taogiaodich_Click);
             // 

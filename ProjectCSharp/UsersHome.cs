@@ -92,8 +92,8 @@ namespace ProjectCSharp
 
         public void ShowThemGiaoDich()
         {
-            //themgiaodich themgiaodich = new themgiaodich(_user, this);
-            //themgiaodich.Show();
+            themthuchi themthuchi = new themthuchi(_user, this);
+            ShowUserControl(themthuchi);
         }
 
         public void ShowHomePage()
