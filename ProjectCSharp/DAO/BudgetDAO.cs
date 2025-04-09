@@ -32,7 +32,7 @@ namespace ProjectCSharp.DAO
                 }
 
                 string insertQuery = "INSERT INTO Budgets (UserId, Amount, StartDate, EndDate, CreatedDate) " +
-                                   "VALUES (@userId, @budgetName, @amount, @currency, @startDate, @endDate, @createdDate)";
+                                   "VALUES (@userId, @amount, @startDate, @endDate, @createdDate)";
                 MySqlCommand cmd = new MySqlCommand(insertQuery, conn);
                 cmd.Parameters.AddWithValue("@userId", userId);
                 cmd.Parameters.AddWithValue("@amount", amount);

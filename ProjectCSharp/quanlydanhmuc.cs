@@ -34,7 +34,7 @@ namespace ProjectCSharp
         {
             string name = txtTendanhmuc.Text.Trim();
             string description = txtMota.Text.Trim();
-            string type = rdThu.Checked ? "IMCOME" : "EXPENSE";
+            string type = rdThu.Checked ? "INCOME" : "EXPENSE";
             int userId = currentUser.Id;
             if (string.IsNullOrEmpty(name))
             {

@@ -142,20 +142,22 @@ namespace ProjectCSharp.DAO
                 cmd.Parameters.AddWithValue("@userId", userId);
                 cmd.Parameters.AddWithValue("@type", type);
 
-                conn.Open();
+                if (conn.State != ConnectionState.Open)
+                {
+                    conn.Open();
+                }
                 MySqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
                     int id = Convert.ToInt32(reader["Id"]); 
                     string name = reader["Name"].ToString(); 
-                    categoryNames.Add(new Tuple<int, string>(id, name)); // Thêm vào danh sách
+                    categoryNames.Add(new Tuple<int, string>(id, name));
                 }
                 reader.Close();
             }
             catch (Exception ex)
             {
-                // Xử lý lỗi nếu cần
-                Console.WriteLine("Lỗi: " + ex.Message);
+                MessageBox.Show("Lỗi: " + ex.Message);
             }
             finally
             {
