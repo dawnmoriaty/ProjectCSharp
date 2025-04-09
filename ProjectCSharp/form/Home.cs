@@ -109,28 +109,27 @@ namespace ProjectCSharp
                 UserDAO userDAO = new UserDAO();
                 User newUser = userDAO.Register(username, password, fullName, email);
 
-                //// Tạo budget mặc định cho user mới
-                //BudgetDAO budgetDAO = new BudgetDAO();
-                //string budgetResult = budgetDAO.CreateBudget(
-                //    newUser.Id,
-                //    "Ngân sách mặc định",
-                //    0, // Số tiền ban đầu
-                //    DateTime.Now, // Ngày bắt đầu
-                //    DateTime.Now.AddMonths(5) // Ngày kết thúc (5 tháng sau)
-                //);
+                // Tạo budget mặc định cho user mới
+                BudgetDAO budgetDAO = new BudgetDAO();
+                string budgetResult = budgetDAO.CreateBudget(
+                    newUser.Id,
+                    0, // Số tiền ban đầu
+                    DateTime.Now, // Ngày bắt đầu
+                    DateTime.Now.AddMonths(5) // Ngày kết thúc (5 tháng sau)
+                );
 
-                //if (budgetResult == "Tạo ngân sách thành công")
-                //{
-                //    MessageBox.Show("Đăng ký thành công! Bạn có thể đăng nhập ngay bây giờ.",
-                //        "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                //    panelRegister.Visible = false;
-                //    panelLogin.Visible = true;
-                //}
-                //else
-                //{
-                //    MessageBox.Show("Đăng ký thành công nhưng không thể tạo ngân sách mặc định: " + budgetResult,
-                //        "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                //}
+                if (budgetResult == "Tạo ngân sách thành công")
+                {
+                    MessageBox.Show("Đăng ký thành công! Bạn có thể đăng nhập ngay bây giờ.",
+                        "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    panelRegister.Visible = false;
+                    panelLogin.Visible = true;
+                }
+                else
+                {
+                    MessageBox.Show("Đăng ký thành công nhưng không thể tạo ngân sách mặc định: " + budgetResult,
+                        "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             catch (Exception ex)
             {

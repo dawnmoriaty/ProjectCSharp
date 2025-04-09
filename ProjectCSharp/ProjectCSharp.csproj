@@ -108,6 +108,7 @@
     <Compile Include="component\User\Sidebar.Designer.cs">
       <DependentUpon>Sidebar.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\BudgetDAO.cs" />
     <Compile Include="DAO\TransactionDAO.cs" />
     <Compile Include="form\AdminHome.cs">
       <SubType>Form</SubType>
