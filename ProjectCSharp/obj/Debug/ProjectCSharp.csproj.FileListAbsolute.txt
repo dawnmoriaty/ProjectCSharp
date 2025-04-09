@@ -212,3 +212,4 @@ D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.exe
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.pdb
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.quanlydanhmuc.resources
 C:\Users\PC\Source\Repos\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.quanlydanhmuc.resources
+D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.themthuchi.resources

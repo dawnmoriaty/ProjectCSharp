@@ -158,11 +158,23 @@
     <Compile Include="thaydoithongtincanhan.Designer.cs">
       <DependentUpon>thaydoithongtincanhan.cs</DependentUpon>
     </Compile>
+    <Compile Include="themthuchi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="themthuchi.Designer.cs">
+      <DependentUpon>themthuchi.cs</DependentUpon>
+    </Compile>
     <Compile Include="thongtincanhan.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="thongtincanhan.Designer.cs">
       <DependentUpon>thongtincanhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thutien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="thutien.Designer.cs">
+      <DependentUpon>thutien.cs</DependentUpon>
     </Compile>
     <Compile Include="UsersHome.cs">
       <SubType>Form</SubType>
@@ -202,8 +214,14 @@
     <EmbeddedResource Include="thaydoithongtincanhan.resx">
       <DependentUpon>thaydoithongtincanhan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="themthuchi.resx">
+      <DependentUpon>themthuchi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="thongtincanhan.resx">
       <DependentUpon>thongtincanhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thutien.resx">
+      <DependentUpon>thutien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsersHome.resx">
       <DependentUpon>UsersHome.cs</DependentUpon>

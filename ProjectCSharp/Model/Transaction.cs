@@ -17,6 +17,5 @@ namespace ProjectCSharp.Model
         public DateTime TransactionDate { get; set; }
         public string Description { get; set; }
         public int UserId { get; set; }
-        public bool Status { get; set; } 
     }
 }

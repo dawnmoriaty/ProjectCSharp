@@ -69,7 +69,7 @@ namespace ProjectCSharp
                     newRow.Cells["UserName"].Value = user.UserName;
                     newRow.Cells["Email"].Value = user.Email;
                     newRow.Cells["UserRole"].Value = user.UserRole;
-                    newRow.Cells["Status"].Value = user.Status ? "1" : "0";
+                    newRow.Cells["Status"].Value = user.Status ? "Sẵn sàng" : "Vô hiệu hoá";
                 }
             }
             catch (Exception ex)
@@ -88,8 +88,7 @@ namespace ProjectCSharp
                 UserDAO userDAO = new UserDAO();
 
                 int userId = int.Parse(txtUserId.Text);
-                bool status = txtStatus.Text == "1";
-
+                bool status = rdActive.Checked ? true : false;
                 string result = userDAO.UpdateUserStatus(userId, status);
 
                 if (result == "Success")
@@ -125,7 +124,17 @@ namespace ProjectCSharp
                 DataGridViewRow selectedRow = dataGridViewUser.Rows[e.RowIndex];
                 txtUserId.Text = selectedRow.Cells["UserId"].Value?.ToString() ?? "";
                 txtName.Text = selectedRow.Cells["UserName"].Value?.ToString() ?? "";
-                txtStatus.Text = selectedRow.Cells["Status"].Value?.ToString() ?? "";
+                var statusObj = selectedRow.Cells["Status"].Value;
+                bool status = false;
+
+                if (statusObj != null)
+                {
+                    bool.TryParse(statusObj.ToString(), out status);
+                }
+
+                // Set radio buttons
+                rdActive.Checked = status;
+                rdInActive.Checked = !status;
             }
         }
     }
