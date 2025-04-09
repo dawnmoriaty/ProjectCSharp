@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using ProjectCSharp.Model;
 using ProjectCSharp.Utils;
+using System.Threading.Tasks;
 
 namespace ProjectCSharp.DAO
 {
@@ -145,6 +146,135 @@ namespace ProjectCSharp.DAO
                 ConnectDB.CloseConnection(conn);
             }
         }
+        public async Task<List<Transaction>> GetTransactionsAsync(int userId, DateTime fromDate, DateTime toDate)
+        {
+            List<Transaction> transactions = new List<Transaction>();
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string selectQuery = @"
+                    SELECT t.*, tc.Name as CategoryName 
+                    FROM Transactions t 
+                    LEFT JOIN TransactionCategories tc ON t.CategoryId = tc.Id 
+                    WHERE t.UserId = @userId 
+                    AND t.TransactionDate BETWEEN @fromDate AND @toDate 
+                    ORDER BY t.TransactionDate DESC";
+                
+                MySqlCommand cmd = new MySqlCommand(selectQuery, conn);
+                cmd.Parameters.AddWithValue("@userId", userId);
+                cmd.Parameters.AddWithValue("@fromDate", fromDate);
+                cmd.Parameters.AddWithValue("@toDate", toDate);
 
+                if (conn.State != ConnectionState.Open)
+                {
+                    await conn.OpenAsync();
+                }
+
+                using (var reader = await cmd.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        Transaction transaction = new Transaction
+                        {
+                            Id = Convert.ToInt32(reader["Id"]),
+                            Amount = Convert.ToDecimal(reader["Amount"]),
+                            CategoryId = Convert.ToInt32(reader["CategoryId"]),
+                            BudgetId = Convert.ToInt32(reader["BudgetId"]),
+                            TransactionDate = Convert.ToDateTime(reader["TransactionDate"]),
+                            Description = reader["Description"].ToString(),
+                            UserId = Convert.ToInt32(reader["UserId"]),
+                            CategoryName = reader["CategoryName"] == DBNull.Value ? 
+                                "Không xác định" : reader["CategoryName"].ToString()
+                        };
+                        transactions.Add(transaction);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi lấy giao dịch: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+            return transactions;
+        }
+        public async Task<decimal> GetTotalIncomeAsync(int userId)
+        {
+            decimal total = 0;
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string selectQuery = @"
+                    SELECT COALESCE(SUM(t.Amount), 0) as TotalIncome
+                    FROM Transactions t 
+                    INNER JOIN TransactionCategories tc ON t.CategoryId = tc.Id 
+                    WHERE t.UserId = @userId 
+                    AND tc.Type = 'INCOME'";
+                
+                MySqlCommand cmd = new MySqlCommand(selectQuery, conn);
+                cmd.Parameters.AddWithValue("@userId", userId);
+
+                if (conn.State != ConnectionState.Open)
+                {
+                    await conn.OpenAsync();
+                }
+                 
+                var result = await cmd.ExecuteScalarAsync();
+                if (result != null && result != DBNull.Value)
+                {
+                    total = Convert.ToDecimal(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tính tổng thu nhập: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+            return total;
+        }
+
+        public async Task<decimal> GetTotalExpenseAsync(int userId)
+        {
+            decimal total = 0;
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                string selectQuery = @"
+                    SELECT COALESCE(SUM(t.Amount), 0) as TotalExpense
+                    FROM Transactions t 
+                    INNER JOIN TransactionCategories tc ON t.CategoryId = tc.Id 
+                    WHERE t.UserId = @userId 
+                    AND tc.Type = 'EXPENSE'";
+                
+                MySqlCommand cmd = new MySqlCommand(selectQuery, conn);
+                cmd.Parameters.AddWithValue("@userId", userId);
+
+
+                if (conn.State != ConnectionState.Open)
+                {
+                    await conn.OpenAsync();
+                }
+
+                object result = await cmd.ExecuteScalarAsync();
+                if (result != null && result != DBNull.Value)
+                {
+                    total = Convert.ToDecimal(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tính tổng chi tiêu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+            return total;
+        }
     }
 }
