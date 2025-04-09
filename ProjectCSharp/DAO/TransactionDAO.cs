@@ -218,13 +218,15 @@ namespace ProjectCSharp.DAO
 
                 if (conn.State != ConnectionState.Open)
                 {
-                    await conn.OpenAsync();
+                    conn.Open();
                 }
-                 
-                var result = await cmd.ExecuteScalarAsync();
-                if (result != null && result != DBNull.Value)
+
+                using (var reader = cmd.ExecuteReader())
                 {
-                    total = Convert.ToDecimal(result);
+                    if (reader.Read())
+                    {
+                        total = reader.GetDecimal(0);
+                    }
                 }
             }
             catch (Exception ex)
@@ -254,16 +256,17 @@ namespace ProjectCSharp.DAO
                 MySqlCommand cmd = new MySqlCommand(selectQuery, conn);
                 cmd.Parameters.AddWithValue("@userId", userId);
 
-
                 if (conn.State != ConnectionState.Open)
                 {
-                    await conn.OpenAsync();
+                    conn.Open();
                 }
 
-                object result = await cmd.ExecuteScalarAsync();
-                if (result != null && result != DBNull.Value)
+                using (var reader = cmd.ExecuteReader())
                 {
-                    total = Convert.ToDecimal(result);
+                    if (reader.Read())
+                    {
+                        total = reader.GetDecimal(0);
+                    }
                 }
             }
             catch (Exception ex)
