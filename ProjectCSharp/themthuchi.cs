@@ -31,6 +31,17 @@ namespace ProjectCSharp
             this.usersHome = usersHome;
             this.currentUser = user;
         }
+        private void LoadCategories()
+        {
+            TransactionCategoryDAO transactionCategoryDAO = new TransactionCategoryDAO();
+            var categoryNames = transactionCategoryDAO.GetCategoryNames(currentUser.Id);
+            category = categoryNames;
+            cbDanhmuc.Items.Clear();
+            foreach (var cat in categoryNames)
+            {
+                cbDanhmuc.Items.Add(cat.Item2);
+            }
+        }
         private void LoadCategories(string type)
         {
             TransactionCategoryDAO transactionCategoryDAO = new TransactionCategoryDAO();
@@ -96,14 +107,11 @@ namespace ProjectCSharp
         {
             try
             {
-                // Xóa các cột và dòng cũ
-                DGVthuchi.DataSource = null; // Reset DataSource
+                DGVthuchi.DataSource = null; 
                 DGVthuchi.Columns.Clear();
-
-                // Tạo các cột thủ công để kiểm soát hiển thị
                 DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
                 {
-                    DataPropertyName = "Id", // Tên thuộc tính trong Transaction
+                    DataPropertyName = "Id", 
                     HeaderText = "ID",
                     Name = "Id"
                 });
@@ -115,7 +123,7 @@ namespace ProjectCSharp
                 });
                 DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
                 {
-                    DataPropertyName = "CategoryName", // Sẽ thêm thuộc tính này vào Transaction tạm thời
+                    DataPropertyName = "CategoryName", 
                     HeaderText = "Danh mục",
                     Name = "CategoryName"
                 });
@@ -130,7 +138,7 @@ namespace ProjectCSharp
                     DataPropertyName = "TransactionDate",
                     HeaderText = "Ngày giao dịch",
                     Name = "TransactionDate",
-                    DefaultCellStyle = new DataGridViewCellStyle { Format = "dd/MM/yyyy" } // Định dạng ngày
+                    DefaultCellStyle = new DataGridViewCellStyle { Format = "dd/MM/yyyy" } 
                 });
                 DGVthuchi.Columns.Add(new DataGridViewTextBoxColumn
                 {
@@ -150,22 +158,16 @@ namespace ProjectCSharp
                     HeaderText = "Category ID",
                     Name = "CategoryId"
                 });
-
-                // Lấy dữ liệu từ TransactionDAO
                 List<Transaction> transactions = transactionDAO.GetTransactionsByUserId(currentUser.Id);
                 if (transactions == null || transactions.Count == 0)
                 {
                     MessageBox.Show("Không có giao dịch nào cho người dùng này.");
                     return;
                 }
-
-                // Đảm bảo category đã được tải
                 if (category == null || category.Count == 0)
                 {
-                    LoadCategories("EXPENSE"); // Tải danh mục mặc định
+                    LoadCategories(); 
                 }
-
-                // Tạo danh sách mới với CategoryName
                 var displayTransactions = transactions.Select(t => new
                 {
                     t.Id,
@@ -177,9 +179,7 @@ namespace ProjectCSharp
                     t.UserId,
                     t.CategoryId
                 }).ToList();
-
-                // Gán DataSource
-                DGVthuchi.AutoGenerateColumns = false; // Tắt tự động tạo cột
+                DGVthuchi.AutoGenerateColumns = false; 
                 DGVthuchi.DataSource = displayTransactions;
             }
             catch (Exception ex)

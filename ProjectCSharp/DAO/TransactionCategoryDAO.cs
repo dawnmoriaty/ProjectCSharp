@@ -75,6 +75,43 @@ namespace ProjectCSharp.DAO
             }
             return categories; // Trả về danh sách các đối tượng TransactionCategory
         }
+        public List<Tuple<int, string>> GetCategoryNames(int userId)
+        {
+            List<Tuple<int, string>> categoryNames = new List<Tuple<int, string>>();
+            MySqlConnection conn = ConnectDB.GetConnection();
+            try
+            {
+                // Sửa câu truy vấn để không lọc theo Type
+                string selectQuery = "SELECT Id, Name FROM TransactionCategories WHERE UserId = @userId";
+                MySqlCommand cmd = new MySqlCommand(selectQuery, conn);
+                cmd.Parameters.AddWithValue("@userId", userId);
+
+                if (conn.State != ConnectionState.Open)
+                {
+                    conn.Open();
+                }
+
+                using (MySqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        int id = reader.GetInt32("Id"); // Lấy Id
+                        string name = reader.GetString("Name"); // Lấy Name
+                        categoryNames.Add(new Tuple<int, string>(id, name));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi lấy danh mục: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                ConnectDB.CloseConnection(conn);
+            }
+            return categoryNames;
+        }
+
         public string UpdateCategory(int userId, int id, string name, string description, string type)
         {
             MySqlConnection conn = ConnectDB.GetConnection();
