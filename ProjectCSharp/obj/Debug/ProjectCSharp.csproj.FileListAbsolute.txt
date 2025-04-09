@@ -267,3 +267,4 @@ C:\Users\JulyTus\Desktop\a\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.c
 C:\Users\JulyTus\Desktop\a\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectC.30D174BD.Up2Date
 C:\Users\JulyTus\Desktop\a\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.exe
 C:\Users\JulyTus\Desktop\a\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.pdb
+C:\Users\PC\Source\Repos\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.themthuchi.resources

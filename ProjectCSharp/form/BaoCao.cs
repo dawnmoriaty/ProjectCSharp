@@ -17,13 +17,13 @@ namespace ProjectCSharp
     public partial class BaoCao : Form
     {
         private readonly User _user;
-        private readonly TransactionDAO transactionService;
+        private readonly TransactionDAO transactionDAO;
 
         public BaoCao(User userInfo)
         {
             InitializeComponent();
             this._user = userInfo;
-            transactionService = new TransactionDAO();
+            transactionDAO = new TransactionDAO();
             this.tableLayoutPanel.Dock = DockStyle.Fill;
             this.plotThuNhapDong.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom;
             this.plotKhoanThu.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Bottom | AnchorStyles.Right;
@@ -60,19 +60,19 @@ namespace ProjectCSharp
             {
                 Cursor = Cursors.WaitCursor;
 
-                var thuNhapData = await transactionService.GetIncomeByDateAsync(
+                var thuNhapData = await transactionDAO.GetIncomeByDateAsync(
                     _user.Id,
                     dtpFromDate.Value,
                     dtpToDate.Value.AddDays(1).AddSeconds(-1)
                 );
 
-                var khoanThuData = await transactionService.GetRevenueByCategoryAsync(
+                var khoanThuData = await transactionDAO.GetRevenueByCategoryAsync(
                     _user.Id,
                     dtpFromDate.Value,
                     dtpToDate.Value.AddDays(1).AddSeconds(-1)
                 );
 
-                var khoanChiData = await transactionService.GetExpenseByCategoryAsync(
+                var khoanChiData = await transactionDAO.GetExpenseByCategoryAsync(
                     _user.Id,
                     dtpFromDate.Value,
                     dtpToDate.Value.AddDays(1).AddSeconds(-1)

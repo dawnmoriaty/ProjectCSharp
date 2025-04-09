@@ -6,6 +6,7 @@ using MySql.Data.MySqlClient;
 using ProjectCSharp.Model;
 using ProjectCSharp.Utils;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace ProjectCSharp.DAO
 {
@@ -278,6 +279,80 @@ namespace ProjectCSharp.DAO
                 ConnectDB.CloseConnection(conn);
             }
             return total;
+        }
+        public async Task<DataTable> GetIncomeByDateAsync(int userId, DateTime fromDate, DateTime toDate)
+        {
+            string query = @"
+            SELECT 
+            DATE(TransactionDate) AS Date, 
+            SUM(CASE WHEN tc.Type = 'INCOME' THEN Amount ELSE 0 END) AS Income,
+            SUM(CASE WHEN tc.Type = 'EXPENSE' THEN Amount ELSE 0 END) AS Expense
+            FROM Transactions t
+            JOIN TransactionCategories tc ON t.CategoryId = tc.Id
+            WHERE t.UserId = @UserId 
+            AND t.TransactionDate BETWEEN @FromDate AND @ToDate
+            GROUP BY DATE(TransactionDate)
+            ORDER BY Date;";
+
+            var parameters = new MySqlParameter[]
+            {
+            new MySqlParameter("@UserId", userId),
+            new MySqlParameter("@FromDate", fromDate),
+            new MySqlParameter("@ToDate", toDate)
+            };
+
+            return await new ConnectDB().ExecuteQueryAsync(query, parameters);
+
+        }
+
+        // Phương thức lấy thu nhập theo danh mục
+        public async Task<DataTable> GetRevenueByCategoryAsync(int userId, DateTime fromDate, DateTime toDate)
+        {
+            string query = @"
+        SELECT 
+            tc.Name AS CategoryName, 
+            SUM(t.Amount) AS Total
+        FROM Transactions t
+        JOIN TransactionCategories tc ON t.CategoryId = tc.Id
+        WHERE t.UserId = @UserId 
+          AND tc.Type = 'INCOME'
+          AND t.TransactionDate BETWEEN @FromDate AND @ToDate
+        GROUP BY tc.Name";
+
+            var parameters = new MySqlParameter[]
+            {
+            new MySqlParameter("@UserId", userId),
+            new MySqlParameter("@FromDate", fromDate),
+            new MySqlParameter("@ToDate", toDate)
+            };
+
+            return await new ConnectDB().ExecuteQueryAsync(query, parameters);
+
+        }
+
+        // Phương thức lấy chi tiêu theo danh mục
+        public async Task<DataTable> GetExpenseByCategoryAsync(int userId, DateTime fromDate, DateTime toDate)
+        {
+            string query = @"
+        SELECT 
+                tc.Name AS CategoryName, 
+                SUM(t.Amount) AS Total
+            FROM Transactions t
+            JOIN TransactionCategories tc ON t.CategoryId = tc.Id
+            WHERE t.UserId = @UserId 
+              AND tc.Type = 'EXPENSE'
+              AND t.TransactionDate BETWEEN @FromDate AND @ToDate
+            GROUP BY tc.Name;";
+
+            var parameters = new MySqlParameter[]
+            {
+            new MySqlParameter("@UserId", userId),
+            new MySqlParameter("@FromDate", fromDate),
+            new MySqlParameter("@ToDate", toDate)
+            };
+
+            return await new ConnectDB().ExecuteQueryAsync(query, parameters);
+
         }
     }
 }

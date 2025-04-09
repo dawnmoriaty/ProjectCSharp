@@ -52,24 +52,24 @@ namespace ProjectCSharp.Utils
             {
                 try
                 {
-                    await connection.OpenAsync();
-                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                await connection.OpenAsync();
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    if (parameters != null)
                     {
-                        if (parameters != null)
-                        {
-                            command.Parameters.AddRange(parameters);
-                        }
+                        command.Parameters.AddRange(parameters);
+                    }
 
-                        using (MySqlDataAdapter adapter = new MySqlDataAdapter(command))
-                        {
-                            DataTable dataTable = new DataTable();
-                            adapter.Fill(dataTable);
-                            return dataTable;
-                        }
+                    using (MySqlDataAdapter adapter = new MySqlDataAdapter(command))
+                    {
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+                        return dataTable;
                     }
                 }
+            }
                 catch (Exception ex)
-                {
+            {
                     MessageBox.Show($"Lỗi kết nối database: {ex.Message}", "Lỗi",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return null;
