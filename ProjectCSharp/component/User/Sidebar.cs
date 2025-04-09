@@ -70,5 +70,10 @@ namespace ProjectCSharp.Component.User
         {
             usersHome.ShowTongthuchi();
         }
+
+        private void btnquanlydanhmuc_Click(object sender, EventArgs e)
+        {
+            usersHome.ShowQuanLyDanhMuc();
+        }
     }
 }

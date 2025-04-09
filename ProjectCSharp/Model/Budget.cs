@@ -12,7 +12,6 @@ namespace ProjectCSharp.Model
         public int UserId { get; set; }
         public string BudgetName { get; set; }
         public decimal Amount { get; set; }
-        public string Currency { get; set; } = "VND";
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public DateTime CreatedDate { get; set; }

@@ -12,10 +12,7 @@ namespace ProjectCSharp.Model
         public string Name { get; set; }
         public string Description { get; set; }
         public string Type { get; set; } // INCOME hoặc EXPENSE
-        public bool IsDefault { get; set; } = false;
         public DateTime CreatedDate { get; set; }
-
-        // Navigation property
         public virtual ICollection<Transaction> Transactions { get; set; }
     }
 }

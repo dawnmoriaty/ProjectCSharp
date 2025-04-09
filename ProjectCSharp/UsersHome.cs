@@ -75,7 +75,12 @@ namespace ProjectCSharp
             thaydoithongtincanhan.LoadUserInfo();
             ShowUserControl(thaydoithongtincanhan);
         }
-        
+        public void ShowQuanLyDanhMuc()
+        {
+            quanlydanhmuc quanlydanhmuc = new quanlydanhmuc(_user, this);
+            ShowUserControl(quanlydanhmuc);
+        }
+
         public void ShowSoGiaoDich()
         {
             sogiaodich sogiaodich = new sogiaodich(_user);

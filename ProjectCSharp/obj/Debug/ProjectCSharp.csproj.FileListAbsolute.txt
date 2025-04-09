@@ -218,3 +218,4 @@ D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.csproj.CoreComp
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectC.30D174BD.Up2Date
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.exe
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.pdb
+D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.quanlydanhmuc.resources

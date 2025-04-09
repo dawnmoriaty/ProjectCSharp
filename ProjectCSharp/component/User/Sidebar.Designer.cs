@@ -35,6 +35,7 @@
             this.btnthongtin = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.PictureBox();
             this.taogiaodich = new System.Windows.Forms.Button();
+            this.btnquanlydanhmuc = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlus)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +58,7 @@
             this.btnsogiaodich.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnsogiaodich.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsogiaodich.ForeColor = System.Drawing.Color.White;
-            this.btnsogiaodich.Location = new System.Drawing.Point(21, 238);
+            this.btnsogiaodich.Location = new System.Drawing.Point(21, 504);
             this.btnsogiaodich.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnsogiaodich.Name = "btnsogiaodich";
             this.btnsogiaodich.Size = new System.Drawing.Size(183, 42);
@@ -119,11 +120,26 @@
             this.taogiaodich.UseVisualStyleBackColor = false;
             this.taogiaodich.Click += new System.EventHandler(this.taogiaodich_Click);
             // 
+            // btnquanlydanhmuc
+            // 
+            this.btnquanlydanhmuc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
+            this.btnquanlydanhmuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnquanlydanhmuc.ForeColor = System.Drawing.Color.White;
+            this.btnquanlydanhmuc.Location = new System.Drawing.Point(21, 236);
+            this.btnquanlydanhmuc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnquanlydanhmuc.Name = "btnquanlydanhmuc";
+            this.btnquanlydanhmuc.Size = new System.Drawing.Size(183, 42);
+            this.btnquanlydanhmuc.TabIndex = 6;
+            this.btnquanlydanhmuc.Text = "Danh mục";
+            this.btnquanlydanhmuc.UseVisualStyleBackColor = false;
+            this.btnquanlydanhmuc.Click += new System.EventHandler(this.btnquanlydanhmuc_Click);
+            // 
             // Sidebar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
+            this.Controls.Add(this.btnquanlydanhmuc);
             this.Controls.Add(this.taogiaodich);
             this.Controls.Add(this.btnPlus);
             this.Controls.Add(this.btnthongtin);
@@ -132,7 +148,7 @@
             this.Controls.Add(this.btnHomeUser);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Sidebar";
-            this.Size = new System.Drawing.Size(231, 585);
+            this.Size = new System.Drawing.Size(231, 606);
             ((System.ComponentModel.ISupportInitialize)(this.btnPlus)).EndInit();
             this.ResumeLayout(false);
 
@@ -146,5 +162,6 @@
         private System.Windows.Forms.Button btnthongtin;
         private System.Windows.Forms.PictureBox btnPlus;
         private System.Windows.Forms.Button taogiaodich;
+        private System.Windows.Forms.Button btnquanlydanhmuc;
     }
 }
