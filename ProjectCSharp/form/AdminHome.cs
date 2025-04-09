@@ -133,8 +133,8 @@ namespace ProjectCSharp
                 }
 
                 // Set radio buttons
-                rdActive.Checked = status;
-                rdInActive.Checked = !status;
+                rdActive.Checked = !status;
+                rdInActive.Checked = status;
             }
         }
     }
