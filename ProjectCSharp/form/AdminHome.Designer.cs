@@ -44,9 +44,9 @@
             this.SideBarAdmin.Controls.Add(this.btnxembaocao);
             this.SideBarAdmin.Controls.Add(this.btnquanlytaikhoan);
             this.SideBarAdmin.Location = new System.Drawing.Point(0, 1);
-            this.SideBarAdmin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SideBarAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SideBarAdmin.Name = "SideBarAdmin";
-            this.SideBarAdmin.Size = new System.Drawing.Size(202, 509);
+            this.SideBarAdmin.Size = new System.Drawing.Size(269, 626);
             this.SideBarAdmin.TabIndex = 0;
             // 
             // btnqldanhmucsanpham
@@ -54,10 +54,10 @@
             this.btnqldanhmucsanpham.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnqldanhmucsanpham.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnqldanhmucsanpham.ForeColor = System.Drawing.Color.White;
-            this.btnqldanhmucsanpham.Location = new System.Drawing.Point(16, 314);
-            this.btnqldanhmucsanpham.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnqldanhmucsanpham.Location = new System.Drawing.Point(21, 386);
+            this.btnqldanhmucsanpham.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnqldanhmucsanpham.Name = "btnqldanhmucsanpham";
-            this.btnqldanhmucsanpham.Size = new System.Drawing.Size(157, 49);
+            this.btnqldanhmucsanpham.Size = new System.Drawing.Size(209, 60);
             this.btnqldanhmucsanpham.TabIndex = 2;
             this.btnqldanhmucsanpham.Text = "Quản lý danh mục giao dịch";
             this.btnqldanhmucsanpham.UseVisualStyleBackColor = false;
@@ -68,23 +68,24 @@
             this.btnxembaocao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnxembaocao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnxembaocao.ForeColor = System.Drawing.Color.White;
-            this.btnxembaocao.Location = new System.Drawing.Point(16, 204);
-            this.btnxembaocao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnxembaocao.Location = new System.Drawing.Point(21, 251);
+            this.btnxembaocao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnxembaocao.Name = "btnxembaocao";
-            this.btnxembaocao.Size = new System.Drawing.Size(157, 49);
+            this.btnxembaocao.Size = new System.Drawing.Size(209, 60);
             this.btnxembaocao.TabIndex = 1;
             this.btnxembaocao.Text = "Xem báo cáo";
             this.btnxembaocao.UseVisualStyleBackColor = false;
+            this.btnxembaocao.Click += new System.EventHandler(this.btnxembaocao_Click);
             // 
             // btnquanlytaikhoan
             // 
             this.btnquanlytaikhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btnquanlytaikhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnquanlytaikhoan.ForeColor = System.Drawing.Color.White;
-            this.btnquanlytaikhoan.Location = new System.Drawing.Point(16, 95);
-            this.btnquanlytaikhoan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnquanlytaikhoan.Location = new System.Drawing.Point(21, 117);
+            this.btnquanlytaikhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnquanlytaikhoan.Name = "btnquanlytaikhoan";
-            this.btnquanlytaikhoan.Size = new System.Drawing.Size(157, 49);
+            this.btnquanlytaikhoan.Size = new System.Drawing.Size(209, 60);
             this.btnquanlytaikhoan.TabIndex = 0;
             this.btnquanlytaikhoan.Text = "Quản lý tài khoản";
             this.btnquanlytaikhoan.UseVisualStyleBackColor = false;
@@ -93,23 +94,23 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(260, 31);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(347, 38);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(588, 202);
+            this.dataGridView1.Size = new System.Drawing.Size(784, 249);
             this.dataGridView1.TabIndex = 1;
             // 
             // AdminHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(903, 509);
+            this.ClientSize = new System.Drawing.Size(1204, 626);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.SideBarAdmin);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AdminHome";
             this.Text = "AdminHome";
             this.SideBarAdmin.ResumeLayout(false);

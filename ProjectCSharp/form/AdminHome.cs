@@ -24,8 +24,13 @@ namespace ProjectCSharp
 
         private void btnthongtincanhan_Click(object sender, EventArgs e)
         {
-            danhmucgiaodich danhmucgiaodich = new danhmucgiaodich();
-            danhmucgiaodich.Show(); 
+            //danhmucgiaodich danhmucgiaodich = new danhmucgiaodich();
+            //danhmucgiaodich.Show(); 
+        }
+
+        private void btnxembaocao_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

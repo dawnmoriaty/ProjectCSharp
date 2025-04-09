@@ -148,7 +148,7 @@
             this.Controls.Add(this.btnHomeUser);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Sidebar";
-            this.Size = new System.Drawing.Size(231, 606);
+            this.Size = new System.Drawing.Size(231, 625);
             ((System.ComponentModel.ISupportInitialize)(this.btnPlus)).EndInit();
             this.ResumeLayout(false);
 

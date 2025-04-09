@@ -29,36 +29,33 @@
         private void InitializeComponent()
         {
             this.panel = new System.Windows.Forms.Panel();
-            this.sidebar1 = new ProjectCSharp.Component.User.Sidebar();
+            this.sidebar = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // panel
             // 
             this.panel.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel.Location = new System.Drawing.Point(172, 2);
-            this.panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel.Location = new System.Drawing.Point(229, 2);
+            this.panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(812, 579);
+            this.panel.Size = new System.Drawing.Size(1083, 713);
             this.panel.TabIndex = 1;
             // 
-            // sidebar1
+            // sidebar
             // 
-            this.sidebar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
-            this.sidebar1.Location = new System.Drawing.Point(-5, 1);
-            this.sidebar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.sidebar1.Name = "sidebar1";
-            this.sidebar1.Size = new System.Drawing.Size(173, 580);
-            this.sidebar1.TabIndex = 1;
-            this.sidebar1.Load += new System.EventHandler(this.sidebar1_Load);
+            this.sidebar.Location = new System.Drawing.Point(0, 3);
+            this.sidebar.Name = "sidebar";
+            this.sidebar.Size = new System.Drawing.Size(229, 711);
+            this.sidebar.TabIndex = 2;
             // 
             // UsersHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(977, 583);
-            this.Controls.Add(this.sidebar1);
+            this.ClientSize = new System.Drawing.Size(1303, 718);
+            this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UsersHome";
             this.Text = "UsersHome";
             this.Load += new System.EventHandler(this.UsersHome_Load);
@@ -67,7 +64,7 @@
         }
 
         #endregion
-        private Component.User.Sidebar sidebar1;
         private System.Windows.Forms.Panel panel;
+        private System.Windows.Forms.Panel sidebar;
     }
 }

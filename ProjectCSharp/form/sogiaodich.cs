@@ -61,69 +61,69 @@ namespace ProjectCSharp
 
         private void LoadTransactions(DateTime fromDate, DateTime toDate)
         {
-            try
-            {
-                // Lấy dữ liệu giao dịch từ TransactionDAO
-                TransactionDAO transactionDAO = new TransactionDAO();
-                List<Transaction> transactions = transactionDAO.GetTransactionsAsync(_user.Id, fromDate, toDate).Result;
-                
-                // Xóa dữ liệu cũ trong DataGridView
-                dataGridView1.DataSource = null;
-                dataGridView1.Rows.Clear();
-                dataGridView1.Columns.Clear();
-                
-                // Thêm các cột vào DataGridView
-                dataGridView1.Columns.Add("Id", "ID");
-                dataGridView1.Columns.Add("Amount", "Số tiền");
-                dataGridView1.Columns.Add("Category", "Danh mục");
-                dataGridView1.Columns.Add("Date", "Ngày");
-                dataGridView1.Columns.Add("Description", "Mô tả");
-                
-                // Thiết lập thuộc tính cho các cột
-                dataGridView1.Columns["Id"].Width = 50;
-                dataGridView1.Columns["Amount"].Width = 120;
-                dataGridView1.Columns["Category"].Width = 150;
-                dataGridView1.Columns["Date"].Width = 100;
-                dataGridView1.Columns["Description"].Width = 200;
-                
-                // Ẩn cột ID
-                dataGridView1.Columns["Id"].Visible = false;
-                
-                if (transactions != null && transactions.Count > 0)
-                {
-                    foreach (var transaction in transactions)
-                    {
-                        // Lấy tên category
-                        TransactionCategoryDAO categoryDAO = new TransactionCategoryDAO();
-                        TransactionCategory category = categoryDAO.GetCategoryById(transaction.CategoryId);
-                        string categoryName = category != null ? category.Name : "Không xác định";
-                        
-                        // Thêm dữ liệu vào DataGridView
-                        dataGridView1.Rows.Add(
-                            transaction.Id,
-                            transaction.Amount.ToString("N0") + " VND",
-                            categoryName,
-                            transaction.TransactionDate.ToString("dd/MM/yyyy"),
-                            transaction.Description
-                        );
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Không có giao dịch nào trong khoảng thời gian này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+            //try
+            //{
+                //        // Lấy dữ liệu giao dịch từ TransactionDAO
+                //        TransactionDAO transactionDAO = new TransactionDAO();
+                //        List<Transaction> transactions = transactionDAO.GetTransactionsAsync(_user.Id, fromDate, toDate).Result;
+
+                //        // Xóa dữ liệu cũ trong DataGridView
+                //        dataGridView1.DataSource = null;
+                //        dataGridView1.Rows.Clear();
+                //        dataGridView1.Columns.Clear();
+
+                //        // Thêm các cột vào DataGridView
+                //        dataGridView1.Columns.Add("Id", "ID");
+                //        dataGridView1.Columns.Add("Amount", "Số tiền");
+                //        dataGridView1.Columns.Add("Category", "Danh mục");
+                //        dataGridView1.Columns.Add("Date", "Ngày");
+                //        dataGridView1.Columns.Add("Description", "Mô tả");
+
+                //        // Thiết lập thuộc tính cho các cột
+                //        dataGridView1.Columns["Id"].Width = 50;
+                //        dataGridView1.Columns["Amount"].Width = 120;
+                //        dataGridView1.Columns["Category"].Width = 150;
+                //        dataGridView1.Columns["Date"].Width = 100;
+                //        dataGridView1.Columns["Description"].Width = 200;
+
+                //        // Ẩn cột ID
+                //        dataGridView1.Columns["Id"].Visible = false;
+
+                //        if (transactions != null && transactions.Count > 0)
+                //        {
+                //            foreach (var transaction in transactions)
+                //            {
+                //                // Lấy tên category
+                //                TransactionCategoryDAO categoryDAO = new TransactionCategoryDAO();
+                //                TransactionCategory category = categoryDAO.GetCategoryById(transaction.CategoryId);
+                //                string categoryName = category != null ? category.Name : "Không xác định";
+
+                //                // Thêm dữ liệu vào DataGridView
+                //                dataGridView1.Rows.Add(
+                //                    transaction.Id,
+                //                    transaction.Amount.ToString("N0") + " VND",
+                //                    categoryName,
+                //                    transaction.TransactionDate.ToString("dd/MM/yyyy"),
+                //                    transaction.Description
+                //                );
+                //            }
+                //        }
+                //        else
+                //        {
+                //            MessageBox.Show("Không có giao dịch nào trong khoảng thời gian này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //        }
+                //    }
+                //    catch (Exception ex)
+                //    {
+                //        MessageBox.Show("Lỗi: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
 
         private void btnBaocao_Click(object sender, EventArgs e)
         {
-            BaoCao baoCaoForm = new BaoCao(_user);
-            baoCaoForm.Show();
-            this.Hide();
+            //BaoCao baoCaoForm = new BaoCao(_user);
+            //baoCaoForm.Show();
+            //this.Hide();
         }
 
 
@@ -134,29 +134,29 @@ namespace ProjectCSharp
 
         private void LoadBudgetInfo()
         {
-            try
-            {
-                // Lấy thông tin ngân sách từ BudgetDAO
-                BudgetDAO budgetDAO = new BudgetDAO();
-                Budget budget = budgetDAO.GetBudgetByUserId(_user.Id);
+            //try
+            //{
+            ////    // Lấy thông tin ngân sách từ BudgetDAO
+            ////    BudgetDAO budgetDAO = new BudgetDAO();
+            ////    Budget budget = budgetDAO.GetBudgetByUserId(_user.Id);
                 
-                if (budget != null)
-                {
-                    // Hiển thị số dư trong txtSodu
-                    txtSodu.Text = budget.Amount.ToString() ;
+            ////    if (budget != null)
+            ////    {
+            ////        // Hiển thị số dư trong txtSodu
+            ////        txtSodu.Text = budget.Amount.ToString() ;
                     
-                }
-                else
-                {
-                    txtSodu.Text = "0 VND";
-                    MessageBox.Show("Bạn chưa có ngân sách nào. Vui lòng tạo ngân sách trước khi sử dụng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtSodu.Text = "0 VND";
-            }
+            ////    }
+            ////    else
+            ////    {
+            ////        txtSodu.Text = "0 VND";
+            ////        MessageBox.Show("Bạn chưa có ngân sách nào. Vui lòng tạo ngân sách trước khi sử dụng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            ////    }
+            ////}
+            ////catch (Exception ex)
+            ////{
+            ////    MessageBox.Show("Lỗi: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            ////    txtSodu.Text = "0 VND";
+            ////}
         }
     }
 }

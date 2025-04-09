@@ -202,12 +202,8 @@ D:\prjCSharp\ProjectCSharp\ProjectCSharp\bin\Debug\System.Threading.Tasks.Extens
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.csproj.AssemblyReference.cache
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.Component.User.Sidebar.resources
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.AdminHome.resources
-D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.BaoCao.resources
-D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.baocaochitiet.resources
-D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.danhmucgiaodich.resources
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.Home.resources
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.sogiaodich.resources
-D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.themgiaodich.resources
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.Properties.Resources.resources
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thaydoimatkhau.resources
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.thaydoithongtincanhan.resources

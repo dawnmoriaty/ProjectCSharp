@@ -35,8 +35,11 @@ namespace ProjectCSharp
         }
         private void UsersHome_Load(object sender, EventArgs e)
         {
-            // mặc định usercontrol homepage sẽ được hiển thị đầu tiên
-            sidebar1.setUsersForm(this);
+            Sidebar uc = new Sidebar();
+            uc.Dock = DockStyle.Left;
+            sidebar.Controls.Add(uc);
+            uc.setUsersForm(this);
+            //sidebar1.setUsersForm(this);
         }
         // ============================hàm tiêu chuẩn để gọi usercontrol=============================
         private void ShowUserControl(UserControl uc)
@@ -89,8 +92,8 @@ namespace ProjectCSharp
 
         public void ShowThemGiaoDich()
         {
-            themgiaodich themgiaodich = new themgiaodich(_user, this);
-            themgiaodich.Show();
+            //themgiaodich themgiaodich = new themgiaodich(_user, this);
+            //themgiaodich.Show();
         }
 
         public void ShowHomePage()
@@ -101,13 +104,10 @@ namespace ProjectCSharp
         // chua có nè
         public void ShowTongthuchi()
         {
-            BaoCao baocao = new BaoCao(_user);
-            baocao.Show();
+            //BaoCao baocao = new BaoCao(_user);
+            //baocao.Show();
         }
 
-        private void sidebar1_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
