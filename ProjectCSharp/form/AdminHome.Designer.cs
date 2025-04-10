@@ -196,6 +196,8 @@
             this.btndangxuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(181)))), ((int)(((byte)(114)))));
             this.btndangxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndangxuat.ForeColor = System.Drawing.Color.White;
+            this.btndangxuat.Image = global::ProjectCSharp.Properties.Resources.logout;
+            this.btndangxuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btndangxuat.Location = new System.Drawing.Point(12, 543);
             this.btndangxuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btndangxuat.Name = "btndangxuat";
@@ -217,7 +219,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AdminHome";
             this.Text = "AdminHome";
-            this.Load += new System.EventHandler(this.AdminHome_Load);
+
             this.SideBarAdmin.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUser)).EndInit();
             this.groupBoxquanly.ResumeLayout(false);

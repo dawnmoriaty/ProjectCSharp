@@ -155,9 +155,6 @@ namespace ProjectCSharp
             }
         }
 
-        private void AdminHome_Load(object sender, EventArgs e)
-        {
-            LoadUserData();
-        }
+
     }
 }

@@ -123,7 +123,7 @@
             this.UserRole.Items.AddRange(new object[] {
             "ADMIN",
             "USER"});
-            this.UserRole.Location = new System.Drawing.Point(133, 89);
+            this.UserRole.Location = new System.Drawing.Point(133, 81);
             this.UserRole.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserRole.Name = "UserRole";
             this.UserRole.Size = new System.Drawing.Size(271, 39);
@@ -257,7 +257,7 @@
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(148, 0);
+            this.label10.Location = new System.Drawing.Point(148, 11);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(117, 44);
             this.label10.TabIndex = 0;
@@ -494,6 +494,7 @@
             // 
             // Home
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1301, 706);

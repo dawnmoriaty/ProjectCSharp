@@ -67,7 +67,8 @@
             this.taogiaodich.Name = "taogiaodich";
             this.taogiaodich.Size = new System.Drawing.Size(207, 57);
             this.taogiaodich.TabIndex = 5;
-            this.taogiaodich.Text = "     Tạo giao dịch";
+            this.taogiaodich.Text = "Tạo giao dịch";
+            this.taogiaodich.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.taogiaodich.UseVisualStyleBackColor = false;
             this.taogiaodich.Click += new System.EventHandler(this.taogiaodich_Click);
             // 
@@ -94,7 +95,7 @@
             this.btnthongtin.Name = "btnthongtin";
             this.btnthongtin.Size = new System.Drawing.Size(207, 57);
             this.btnthongtin.TabIndex = 3;
-            this.btnthongtin.Text = "Tài Khoản";
+            this.btnthongtin.Text = "  Tài Khoản";
             this.btnthongtin.UseVisualStyleBackColor = false;
             this.btnthongtin.Click += new System.EventHandler(this.btnthongtin_Click);
             // 
@@ -126,7 +127,8 @@
             this.btnsogiaodich.Name = "btnsogiaodich";
             this.btnsogiaodich.Size = new System.Drawing.Size(207, 57);
             this.btnsogiaodich.TabIndex = 1;
-            this.btnsogiaodich.Text = "    Sổ giao dịch";
+            this.btnsogiaodich.Text = "Sổ giao dịch";
+            this.btnsogiaodich.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnsogiaodich.UseVisualStyleBackColor = false;
             this.btnsogiaodich.Click += new System.EventHandler(this.btnsogiaodich_Click);
             // 

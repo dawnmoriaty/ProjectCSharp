@@ -44,9 +44,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(459, 24);
+            this.label1.Location = new System.Drawing.Point(408, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(294, 38);
+            this.label1.Size = new System.Drawing.Size(258, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thông tin cá nhân";
             // 
@@ -54,9 +54,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(172, 235);
+            this.label2.Location = new System.Drawing.Point(153, 188);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 29);
+            this.label2.Size = new System.Drawing.Size(163, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên người dùng";
             // 
@@ -64,30 +64,28 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(172, 314);
+            this.label3.Location = new System.Drawing.Point(153, 251);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 29);
+            this.label3.Size = new System.Drawing.Size(65, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Email";
             // 
             // txtTennguoidung
             // 
             this.txtTennguoidung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTennguoidung.Location = new System.Drawing.Point(400, 235);
-            this.txtTennguoidung.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTennguoidung.Location = new System.Drawing.Point(356, 188);
             this.txtTennguoidung.Name = "txtTennguoidung";
             this.txtTennguoidung.ReadOnly = true;
-            this.txtTennguoidung.Size = new System.Drawing.Size(403, 35);
+            this.txtTennguoidung.Size = new System.Drawing.Size(359, 30);
             this.txtTennguoidung.TabIndex = 3;
             // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(400, 308);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtEmail.Location = new System.Drawing.Point(356, 246);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.ReadOnly = true;
-            this.txtEmail.Size = new System.Drawing.Size(403, 35);
+            this.txtEmail.Size = new System.Drawing.Size(359, 30);
             this.txtEmail.TabIndex = 4;
             // 
             // btnthaydoimatkhau
@@ -95,10 +93,9 @@
             this.btnthaydoimatkhau.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnthaydoimatkhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthaydoimatkhau.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnthaydoimatkhau.Location = new System.Drawing.Point(400, 389);
-            this.btnthaydoimatkhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnthaydoimatkhau.Location = new System.Drawing.Point(356, 311);
             this.btnthaydoimatkhau.Name = "btnthaydoimatkhau";
-            this.btnthaydoimatkhau.Size = new System.Drawing.Size(403, 72);
+            this.btnthaydoimatkhau.Size = new System.Drawing.Size(358, 58);
             this.btnthaydoimatkhau.TabIndex = 5;
             this.btnthaydoimatkhau.Text = "Thay đổi mật khẩu";
             this.btnthaydoimatkhau.UseVisualStyleBackColor = false;
@@ -109,10 +106,9 @@
             this.btnthaydoithongtincanhan.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnthaydoithongtincanhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnthaydoithongtincanhan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnthaydoithongtincanhan.Location = new System.Drawing.Point(400, 490);
-            this.btnthaydoithongtincanhan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnthaydoithongtincanhan.Location = new System.Drawing.Point(356, 392);
             this.btnthaydoithongtincanhan.Name = "btnthaydoithongtincanhan";
-            this.btnthaydoithongtincanhan.Size = new System.Drawing.Size(403, 72);
+            this.btnthaydoithongtincanhan.Size = new System.Drawing.Size(358, 58);
             this.btnthaydoithongtincanhan.TabIndex = 6;
             this.btnthaydoithongtincanhan.Text = "Thay đổi thông tin cá nhân";
             this.btnthaydoithongtincanhan.UseVisualStyleBackColor = false;
@@ -123,10 +119,9 @@
             this.btnxoataikhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnxoataikhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnxoataikhoan.ForeColor = System.Drawing.Color.White;
-            this.btnxoataikhoan.Location = new System.Drawing.Point(400, 584);
-            this.btnxoataikhoan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnxoataikhoan.Location = new System.Drawing.Point(356, 467);
             this.btnxoataikhoan.Name = "btnxoataikhoan";
-            this.btnxoataikhoan.Size = new System.Drawing.Size(403, 72);
+            this.btnxoataikhoan.Size = new System.Drawing.Size(358, 58);
             this.btnxoataikhoan.TabIndex = 7;
             this.btnxoataikhoan.Text = "Xoá tài khoản";
             this.btnxoataikhoan.UseVisualStyleBackColor = false;
@@ -137,10 +132,11 @@
             this.btndangxuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btndangxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndangxuat.ForeColor = System.Drawing.Color.White;
-            this.btndangxuat.Location = new System.Drawing.Point(900, 585);
-            this.btndangxuat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btndangxuat.Image = global::ProjectCSharp.Properties.Resources.logout;
+            this.btndangxuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndangxuat.Location = new System.Drawing.Point(800, 468);
             this.btndangxuat.Name = "btndangxuat";
-            this.btndangxuat.Size = new System.Drawing.Size(217, 72);
+            this.btndangxuat.Size = new System.Drawing.Size(193, 58);
             this.btndangxuat.TabIndex = 8;
             this.btndangxuat.Text = "Đăng xuất";
             this.btndangxuat.UseVisualStyleBackColor = false;
@@ -148,7 +144,7 @@
             // 
             // thongtincanhan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.btndangxuat);
@@ -160,9 +156,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "thongtincanhan";
-            this.Size = new System.Drawing.Size(1218, 891);
+            this.Size = new System.Drawing.Size(1083, 713);
             this.Load += new System.EventHandler(this.thongtincanhan_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
