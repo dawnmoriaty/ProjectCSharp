@@ -327,3 +327,4 @@ C:\Users\PC\Source\Repos\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.Bao
 D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.BaoCao.resources
 C:\Users\JulyTus\Desktop\a\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.BaoCao.resources
 C:\Users\JulyTus\Desktop\a\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.homepage.resources
+D:\prjCSharp\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.homepage.resources

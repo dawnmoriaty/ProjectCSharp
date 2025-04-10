@@ -40,6 +40,7 @@ namespace ProjectCSharp
             sidebar.Controls.Add(uc);
             uc.setUsersForm(this);
             //sidebar1.setUsersForm(this);
+            ShowHomePage();
         }
         // ============================hàm tiêu chuẩn để gọi usercontrol=============================
         private void ShowUserControl(UserControl uc)
