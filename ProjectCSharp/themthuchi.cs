@@ -308,5 +308,10 @@ namespace ProjectCSharp
                 MessageBox.Show("Lỗi khi xóa giao dịch: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void themthuchi_Load(object sender, EventArgs e)
+        {
+            LoadTransactions();
+        }
     }
 }

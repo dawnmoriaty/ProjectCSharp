@@ -62,11 +62,6 @@ namespace ProjectCSharp
             rdThu.Checked = false;
             rdChi.Checked = false;
         }
-
-        private void thongtindanhmuc_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
         private void LoadCategories(int userId)
         {
             try
@@ -117,7 +112,7 @@ namespace ProjectCSharp
         }
         private void quanlydanhmuc_Load(object sender, EventArgs e)
         {
-            
+            LoadCategories(currentUser.Id);
         }
         private void btnSua_Click(object sender, EventArgs e)
         {

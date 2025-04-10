@@ -217,7 +217,7 @@ namespace ProjectCSharp
                 User user = userDAO.GetUserInfo(username);
                 if (selectedRole == "ADMIN")
                 {
-                    AdminHome adminHome = new AdminHome();
+                    AdminHome adminHome = new AdminHome(user);
                     adminHome.Show();
                     this.Hide();
                 }

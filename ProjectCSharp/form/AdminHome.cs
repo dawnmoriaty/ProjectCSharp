@@ -14,8 +14,14 @@ namespace ProjectCSharp
 {
     public partial class AdminHome: Form
     {
+        private User _user;
         public AdminHome()
         {
+            InitializeComponent();
+        }
+        public AdminHome(User user)
+        {
+            _user = user;
             InitializeComponent();
         }
 
@@ -25,16 +31,6 @@ namespace ProjectCSharp
             LoadUserData();
         }
 
-        private void btnthongtincanhan_Click(object sender, EventArgs e)
-        {
-            //danhmucgiaodich danhmucgiaodich = new danhmucgiaodich();
-            //danhmucgiaodich.Show(); 
-        }
-
-        private void btnxembaocao_Click(object sender, EventArgs e)
-        {
-
-        }
         private void ConfigureDataGridView()
         {
             dataGridViewUser.Columns.Clear();
@@ -136,6 +132,32 @@ namespace ProjectCSharp
                 rdActive.Checked = !status;
                 rdInActive.Checked = status;
             }
+        }
+
+        private void btndangxuat_Click(object sender, EventArgs e)
+        {
+            DialogResult confirm = MessageBox.Show(
+        "Bạn có chắc chắn muốn đăng xuất?",
+        "Xác nhận đăng xuất",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Question
+    );
+
+            if (confirm == DialogResult.Yes)
+            {
+                _user = null;
+
+                // Hiển thị lại Home
+                Home home = new Home();
+                home.Show();
+
+                this.Hide();
+            }
+        }
+
+        private void AdminHome_Load(object sender, EventArgs e)
+        {
+            LoadUserData();
         }
     }
 }
