@@ -1,66 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\C#_11_4\\ProjectCSharp\\",
+  "WorkspaceRootPath": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|e:\\c#_11_4\\projectcsharp\\projectcsharp\\form\\adminhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|c:\\users\\julytus\\desktop\\a\\projectcsharp\\projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\dao\\transactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|e:\\c#_11_4\\projectcsharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|c:\\users\\julytus\\desktop\\a\\projectcsharp\\projectcsharp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\thongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\thongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|c:\\users\\julytus\\desktop\\a\\projectcsharp\\projectcsharp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\adminhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|e:\\c#_11_4\\projectcsharp\\projectcsharp\\form\\baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\form\\baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\component\\user\\sidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|e:\\c#_11_4\\projectcsharp\\projectcsharp\\utils\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\utils\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|e:\\c#_11_4\\projectcsharp\\projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\themthuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\quanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\usershome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|E:\\C#_11_4\\ProjectCSharp\\projectcsharp\\thaydoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\thaydoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|c:\\users\\julytus\\desktop\\a\\projectcsharp\\projectcsharp\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63695095-D6F5-4D84-8669-2D7E87FD3022}|ProjectCSharp\\ProjectCSharp.csproj|solutionrelative:projectcsharp\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,198 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "homepage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\homepage.Designer.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\homepage.Designer.cs",
+              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\homepage.Designer.cs",
+              "RelativeToolTip": "ProjectCSharp\\homepage.Designer.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAASwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T02:53:54.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminHome.Designer.cs",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.Designer.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\form\\AdminHome.Designer.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.Designer.cs",
-              "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.Designer.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAlwNwAAAAkAAAAAAAAAA==",
+              "Title": "TransactionDAO.cs",
+              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\DAO\\TransactionDAO.cs",
+              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\DAO\\TransactionDAO.cs*",
+              "RelativeToolTip": "ProjectCSharp\\DAO\\TransactionDAO.cs*",
+              "ViewState": "AgIAAFUBAAAAAAAAAAAUwGQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:32:31.419Z",
+              "WhenOpened": "2025-04-10T02:50:23.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminHome.cs",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\form\\AdminHome.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
-              "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAwJ0AAAAAAAAAAAAAAA==",
+              "Title": "homepage.cs",
+              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\homepage.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\homepage.cs",
+              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\homepage.cs",
+              "RelativeToolTip": "ProjectCSharp\\homepage.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDoAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:32:04.345Z",
+              "WhenOpened": "2025-04-10T02:44:30.954Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaoCao.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\BaoCao.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\form\\BaoCao.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\BaoCao.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\form\\BaoCao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:25:51.796Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Sidebar.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\component\\User\\Sidebar.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\component\\User\\Sidebar.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\component\\User\\Sidebar.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\component\\User\\Sidebar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T00:40:06.345Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminHome.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\form\\AdminHome.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\AdminHome.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\form\\AdminHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T00:36:35.918Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsersHome.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T00:33:10.907Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\Home.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\form\\Home.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\form\\Home.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\form\\Home.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T00:36:43.375Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "thongtincanhan.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\thongtincanhan.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\thongtincanhan.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\thongtincanhan.cs [Design]",
-              "RelativeToolTip": "ProjectCSharp\\thongtincanhan.cs [Design]",
+              "Title": "homepage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\homepage.cs",
+              "RelativeDocumentMoniker": "ProjectCSharp\\homepage.cs",
+              "ToolTip": "C:\\Users\\JulyTus\\Desktop\\a\\ProjectCSharp\\ProjectCSharp\\homepage.cs [Design]",
+              "RelativeToolTip": "ProjectCSharp\\homepage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T00:33:21.952Z",
+              "WhenOpened": "2025-04-10T02:43:43.17Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConnectDB.cs",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\utils\\ConnectDB.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\utils\\ConnectDB.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\utils\\ConnectDB.cs",
-              "RelativeToolTip": "ProjectCSharp\\utils\\ConnectDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:21:34.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "themthuchi.cs",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\themthuchi.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs",
-              "RelativeToolTip": "ProjectCSharp\\themthuchi.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAQwDkBAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:10:29.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "thaydoimatkhau.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\thaydoimatkhau.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\thaydoimatkhau.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\ProjectCSharp\\ProjectCSharp\\thaydoimatkhau.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:35:12.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "quanlydanhmuc.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:38:05.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsersHome.cs",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\UsersHome.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\UsersHome.cs",
-              "RelativeToolTip": "ProjectCSharp\\UsersHome.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAIA8wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:01:50.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "quanlydanhmuc.cs",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ToolTip": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\quanlydanhmuc.cs",
-              "RelativeToolTip": "ProjectCSharp\\quanlydanhmuc.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAewDsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T02:09:34.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "themthuchi.cs [Design]",
-              "DocumentMoniker": "E:\\C#_11_4\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs",
-              "RelativeDocumentMoniker": "ProjectCSharp\\themthuchi.cs",
-              "ToolTip": "D:\\prjCSharp\\ProjectCSharp\\ProjectCSharp\\themthuchi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T00:33:22.892Z"
             }
           ]
         }

@@ -354,5 +354,26 @@ namespace ProjectCSharp.DAO
             return await new ConnectDB().ExecuteQueryAsync(query, parameters);
 
         }
+
+        public async Task<DataTable> GetTransactionOrderByDateAsync(int userId)
+        {
+            string query = @"
+        SELECT t.amount, t.description, tc.name
+        FROM Transactions t
+        JOIN TransactionCategories tc ON tc.Id = t.CategoryId
+        WHERE t.UserId = @UserId
+        ORDER BY TransactionDate DESC
+        LIMIT 10;";
+
+            var parameters = new MySqlParameter[]
+            {
+            new MySqlParameter("@UserId", userId),
+
+            };
+
+            return await new ConnectDB().ExecuteQueryAsync(query, parameters);
+
+        }
+
     }
 }

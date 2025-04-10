@@ -207,6 +207,9 @@
     <EmbeddedResource Include="form\sogiaodich.resx">
       <DependentUpon>sogiaodich.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="homepage.resx">
+      <DependentUpon>homepage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
