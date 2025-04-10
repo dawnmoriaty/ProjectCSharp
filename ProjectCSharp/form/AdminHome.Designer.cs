@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminHome));
             this.SideBarAdmin = new System.Windows.Forms.Panel();
             this.btnqldanhmucsanpham = new System.Windows.Forms.Button();
             this.btnxembaocao = new System.Windows.Forms.Button();
@@ -38,10 +39,10 @@
             this.lblName = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             this.groupBoxquanly = new System.Windows.Forms.GroupBox();
+            this.rdInActive = new System.Windows.Forms.RadioButton();
+            this.rdActive = new System.Windows.Forms.RadioButton();
             this.txtUserId = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.rdActive = new System.Windows.Forms.RadioButton();
-            this.rdInActive = new System.Windows.Forms.RadioButton();
             this.SideBarAdmin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUser)).BeginInit();
             this.groupBoxquanly.SuspendLayout();
@@ -171,6 +172,28 @@
             this.groupBoxquanly.TabStop = false;
             this.groupBoxquanly.Text = "Quản lý tài khoản người dùng";
             // 
+            // rdInActive
+            // 
+            this.rdInActive.AutoSize = true;
+            this.rdInActive.Location = new System.Drawing.Point(239, 148);
+            this.rdInActive.Name = "rdInActive";
+            this.rdInActive.Size = new System.Drawing.Size(99, 20);
+            this.rdInActive.TabIndex = 11;
+            this.rdInActive.TabStop = true;
+            this.rdInActive.Text = "Vô hiệu hoá";
+            this.rdInActive.UseVisualStyleBackColor = true;
+            // 
+            // rdActive
+            // 
+            this.rdActive.AutoSize = true;
+            this.rdActive.Location = new System.Drawing.Point(148, 148);
+            this.rdActive.Name = "rdActive";
+            this.rdActive.Size = new System.Drawing.Size(85, 20);
+            this.rdActive.TabIndex = 10;
+            this.rdActive.TabStop = true;
+            this.rdActive.Text = "Sẵn sàng";
+            this.rdActive.UseVisualStyleBackColor = true;
+            // 
             // txtUserId
             // 
             this.txtUserId.Location = new System.Drawing.Point(148, 66);
@@ -189,28 +212,6 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "ID";
             // 
-            // rdActive
-            // 
-            this.rdActive.AutoSize = true;
-            this.rdActive.Location = new System.Drawing.Point(148, 148);
-            this.rdActive.Name = "rdActive";
-            this.rdActive.Size = new System.Drawing.Size(85, 20);
-            this.rdActive.TabIndex = 10;
-            this.rdActive.TabStop = true;
-            this.rdActive.Text = "Sẵn sàng";
-            this.rdActive.UseVisualStyleBackColor = true;
-            // 
-            // rdInActive
-            // 
-            this.rdInActive.AutoSize = true;
-            this.rdInActive.Location = new System.Drawing.Point(239, 148);
-            this.rdInActive.Name = "rdInActive";
-            this.rdInActive.Size = new System.Drawing.Size(99, 20);
-            this.rdInActive.TabIndex = 11;
-            this.rdInActive.TabStop = true;
-            this.rdInActive.Text = "Vô hiệu hoá";
-            this.rdInActive.UseVisualStyleBackColor = true;
-            // 
             // AdminHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -219,6 +220,7 @@
             this.Controls.Add(this.dataGridViewUser);
             this.Controls.Add(this.SideBarAdmin);
             this.Controls.Add(this.groupBoxquanly);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AdminHome";
             this.Text = "AdminHome";

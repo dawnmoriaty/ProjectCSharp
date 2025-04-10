@@ -11,7 +11,7 @@ namespace ProjectCSharp.Utils
 {
     class ConnectDB
     {
-        private static readonly string connectionString = "Server=localhost;Database=PersonalFinanceApp;User=root;Password=123456;";
+        private static readonly string connectionString = "Server=localhost;Database=PersonalFinanceApp;User=root;Password=";
         
         // Mở kết nối
         public static MySqlConnection GetConnection()

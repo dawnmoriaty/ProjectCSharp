@@ -34,16 +34,16 @@
             this.DGVthuchi = new System.Windows.Forms.DataGridView();
             this.btnLoaddulieu = new System.Windows.Forms.Button();
             this.Thuchi = new System.Windows.Forms.GroupBox();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnCapnhat = new System.Windows.Forms.Button();
             this.cbDanhmuc = new System.Windows.Forms.ComboBox();
             this.description = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnXacnhan = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.amount = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnCapnhat = new System.Windows.Forms.Button();
+            this.btnXacnhan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DGVthuchi)).BeginInit();
             this.Thuchi.SuspendLayout();
             this.SuspendLayout();
@@ -68,7 +68,7 @@
             this.btnHienthithu.Name = "btnHienthithu";
             this.btnHienthithu.Size = new System.Drawing.Size(155, 39);
             this.btnHienthithu.TabIndex = 2;
-            this.btnHienthithu.Text = "Nhận tiền";
+            this.btnHienthithu.Text = "Khoản thu";
             this.btnHienthithu.UseVisualStyleBackColor = false;
             this.btnHienthithu.Click += new System.EventHandler(this.btnHienthithu_Click);
             // 
@@ -82,7 +82,7 @@
             this.btnhienthichitien.Name = "btnhienthichitien";
             this.btnhienthichitien.Size = new System.Drawing.Size(155, 39);
             this.btnhienthichitien.TabIndex = 3;
-            this.btnhienthichitien.Text = "Chi tiền";
+            this.btnhienthichitien.Text = "Khoản chi";
             this.btnhienthichitien.UseVisualStyleBackColor = false;
             this.btnhienthichitien.Click += new System.EventHandler(this.btnhienthichitien_Click);
             // 
@@ -133,48 +133,6 @@
             this.Thuchi.TabStop = false;
             this.Thuchi.Text = "Thêm thi chi";
             // 
-            // btnClear
-            // 
-            this.btnClear.BackColor = System.Drawing.Color.Violet;
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.Color.Transparent;
-            this.btnClear.Location = new System.Drawing.Point(735, 128);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(164, 36);
-            this.btnClear.TabIndex = 15;
-            this.btnClear.Text = "Xoá thông tin";
-            this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.ForeColor = System.Drawing.Color.Transparent;
-            this.btnXoa.Location = new System.Drawing.Point(483, 128);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(164, 36);
-            this.btnXoa.TabIndex = 14;
-            this.btnXoa.Text = "Xoá";
-            this.btnXoa.UseVisualStyleBackColor = false;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
-            // 
-            // btnCapnhat
-            // 
-            this.btnCapnhat.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnCapnhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapnhat.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCapnhat.Location = new System.Drawing.Point(262, 128);
-            this.btnCapnhat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCapnhat.Name = "btnCapnhat";
-            this.btnCapnhat.Size = new System.Drawing.Size(164, 36);
-            this.btnCapnhat.TabIndex = 13;
-            this.btnCapnhat.Text = "Cập nhật";
-            this.btnCapnhat.UseVisualStyleBackColor = false;
-            this.btnCapnhat.Click += new System.EventHandler(this.btnCapnhat_Click);
-            // 
             // cbDanhmuc
             // 
             this.cbDanhmuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -202,20 +160,6 @@
             this.label4.Size = new System.Drawing.Size(66, 25);
             this.label4.TabIndex = 10;
             this.label4.Text = "Mô tả";
-            // 
-            // btnXacnhan
-            // 
-            this.btnXacnhan.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnXacnhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXacnhan.ForeColor = System.Drawing.Color.Transparent;
-            this.btnXacnhan.Location = new System.Drawing.Point(21, 128);
-            this.btnXacnhan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnXacnhan.Name = "btnXacnhan";
-            this.btnXacnhan.Size = new System.Drawing.Size(164, 36);
-            this.btnXacnhan.TabIndex = 9;
-            this.btnXacnhan.Text = "Xác nhận";
-            this.btnXacnhan.UseVisualStyleBackColor = false;
-            this.btnXacnhan.Click += new System.EventHandler(this.btnXacnhan_Click);
             // 
             // label2
             // 
@@ -246,6 +190,73 @@
             this.label3.Size = new System.Drawing.Size(181, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Nhập vào số tiền:";
+            // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.Violet;
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.Transparent;
+            this.btnClear.Image = global::ProjectCSharp.Properties.Resources.remove;
+            this.btnClear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClear.Location = new System.Drawing.Point(702, 119);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(212, 55);
+            this.btnClear.TabIndex = 15;
+            this.btnClear.Text = "Xoá thông tin";
+            this.btnClear.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.ForeColor = System.Drawing.Color.Transparent;
+            this.btnXoa.Image = global::ProjectCSharp.Properties.Resources.bin;
+            this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXoa.Location = new System.Drawing.Point(483, 119);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(164, 55);
+            this.btnXoa.TabIndex = 14;
+            this.btnXoa.Text = "Xoá";
+            this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnCapnhat
+            // 
+            this.btnCapnhat.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCapnhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapnhat.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCapnhat.Image = global::ProjectCSharp.Properties.Resources.update;
+            this.btnCapnhat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCapnhat.Location = new System.Drawing.Point(262, 119);
+            this.btnCapnhat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCapnhat.Name = "btnCapnhat";
+            this.btnCapnhat.Size = new System.Drawing.Size(164, 55);
+            this.btnCapnhat.TabIndex = 13;
+            this.btnCapnhat.Text = "Cập nhật";
+            this.btnCapnhat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCapnhat.UseVisualStyleBackColor = false;
+            this.btnCapnhat.Click += new System.EventHandler(this.btnCapnhat_Click);
+            // 
+            // btnXacnhan
+            // 
+            this.btnXacnhan.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnXacnhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXacnhan.ForeColor = System.Drawing.Color.Transparent;
+            this.btnXacnhan.Image = global::ProjectCSharp.Properties.Resources.check;
+            this.btnXacnhan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXacnhan.Location = new System.Drawing.Point(21, 119);
+            this.btnXacnhan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXacnhan.Name = "btnXacnhan";
+            this.btnXacnhan.Size = new System.Drawing.Size(176, 55);
+            this.btnXacnhan.TabIndex = 9;
+            this.btnXacnhan.Text = "Xác nhận";
+            this.btnXacnhan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXacnhan.UseVisualStyleBackColor = false;
+            this.btnXacnhan.Click += new System.EventHandler(this.btnXacnhan_Click);
             // 
             // themthuchi
             // 

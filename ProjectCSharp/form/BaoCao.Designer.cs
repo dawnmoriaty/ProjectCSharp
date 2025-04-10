@@ -39,6 +39,7 @@ namespace ProjectCSharp
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaoCao));
             this.btnBackToGiaoDich = new System.Windows.Forms.Button();
             this.filterPanel = new System.Windows.Forms.Panel();
             this.lblLastUpdate = new System.Windows.Forms.Label();
@@ -65,9 +66,10 @@ namespace ProjectCSharp
             // btnBackToGiaoDich
             // 
             this.btnBackToGiaoDich.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(180)))), ((int)(((byte)(113)))));
-            this.btnBackToGiaoDich.Location = new System.Drawing.Point(3, 3);
+            this.btnBackToGiaoDich.Location = new System.Drawing.Point(3, 2);
+            this.btnBackToGiaoDich.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBackToGiaoDich.Name = "btnBackToGiaoDich";
-            this.btnBackToGiaoDich.Size = new System.Drawing.Size(96, 36);
+            this.btnBackToGiaoDich.Size = new System.Drawing.Size(85, 29);
             this.btnBackToGiaoDich.TabIndex = 0;
             this.btnBackToGiaoDich.Text = "< Quay lại";
             this.btnBackToGiaoDich.UseVisualStyleBackColor = false;
@@ -82,18 +84,19 @@ namespace ProjectCSharp
             this.filterPanel.Controls.Add(this.dtpFromDate);
             this.filterPanel.Controls.Add(this.lblTo);
             this.filterPanel.Controls.Add(this.lblFrom);
-            this.filterPanel.Location = new System.Drawing.Point(12, 115);
+            this.filterPanel.Location = new System.Drawing.Point(11, 92);
+            this.filterPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.filterPanel.Name = "filterPanel";
-            this.filterPanel.Size = new System.Drawing.Size(1154, 82);
+            this.filterPanel.Size = new System.Drawing.Size(1026, 66);
             this.filterPanel.TabIndex = 1;
             // 
             // lblLastUpdate
             // 
             this.lblLastUpdate.AutoSize = true;
             this.lblLastUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLastUpdate.Location = new System.Drawing.Point(12, 50);
+            this.lblLastUpdate.Location = new System.Drawing.Point(11, 40);
             this.lblLastUpdate.Name = "lblLastUpdate";
-            this.lblLastUpdate.Size = new System.Drawing.Size(120, 20);
+            this.lblLastUpdate.Size = new System.Drawing.Size(109, 17);
             this.lblLastUpdate.TabIndex = 6;
             this.lblLastUpdate.Text = "Cập nhật lúc: ";
             // 
@@ -101,9 +104,10 @@ namespace ProjectCSharp
             // 
             this.btnChiTiet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(116)))), ((int)(((byte)(176)))));
             this.btnChiTiet.ForeColor = System.Drawing.Color.White;
-            this.btnChiTiet.Location = new System.Drawing.Point(982, 6);
+            this.btnChiTiet.Location = new System.Drawing.Point(873, 5);
+            this.btnChiTiet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChiTiet.Name = "btnChiTiet";
-            this.btnChiTiet.Size = new System.Drawing.Size(159, 37);
+            this.btnChiTiet.Size = new System.Drawing.Size(141, 30);
             this.btnChiTiet.TabIndex = 5;
             this.btnChiTiet.Text = "Xem chi tiết >>";
             this.btnChiTiet.UseVisualStyleBackColor = false;
@@ -113,9 +117,10 @@ namespace ProjectCSharp
             // 
             this.btnLoadData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(92)))), ((int)(((byte)(91)))));
             this.btnLoadData.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLoadData.Location = new System.Drawing.Point(839, 6);
+            this.btnLoadData.Location = new System.Drawing.Point(746, 5);
+            this.btnLoadData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLoadData.Name = "btnLoadData";
-            this.btnLoadData.Size = new System.Drawing.Size(122, 36);
+            this.btnLoadData.Size = new System.Drawing.Size(108, 29);
             this.btnLoadData.TabIndex = 4;
             this.btnLoadData.Text = "Tải dữ liệu";
             this.btnLoadData.UseVisualStyleBackColor = false;
@@ -123,33 +128,35 @@ namespace ProjectCSharp
             // 
             // dtpToDate
             // 
-            this.dtpToDate.Location = new System.Drawing.Point(496, 10);
+            this.dtpToDate.Location = new System.Drawing.Point(441, 8);
+            this.dtpToDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpToDate.Name = "dtpToDate";
-            this.dtpToDate.Size = new System.Drawing.Size(292, 26);
+            this.dtpToDate.Size = new System.Drawing.Size(260, 22);
             this.dtpToDate.TabIndex = 3;
             // 
             // dtpFromDate
             // 
-            this.dtpFromDate.Location = new System.Drawing.Point(83, 10);
+            this.dtpFromDate.Location = new System.Drawing.Point(74, 8);
+            this.dtpFromDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpFromDate.Name = "dtpFromDate";
-            this.dtpFromDate.Size = new System.Drawing.Size(303, 26);
+            this.dtpFromDate.Size = new System.Drawing.Size(270, 22);
             this.dtpFromDate.TabIndex = 2;
             // 
             // lblTo
             // 
             this.lblTo.AutoSize = true;
-            this.lblTo.Location = new System.Drawing.Point(413, 14);
+            this.lblTo.Location = new System.Drawing.Point(367, 11);
             this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(77, 20);
+            this.lblTo.Size = new System.Drawing.Size(64, 16);
             this.lblTo.TabIndex = 1;
             this.lblTo.Text = "Đến ngày";
             // 
             // lblFrom
             // 
             this.lblFrom.AutoSize = true;
-            this.lblFrom.Location = new System.Drawing.Point(12, 15);
+            this.lblFrom.Location = new System.Drawing.Point(11, 12);
             this.lblFrom.Name = "lblFrom";
-            this.lblFrom.Size = new System.Drawing.Size(65, 20);
+            this.lblFrom.Size = new System.Drawing.Size(56, 16);
             this.lblFrom.TabIndex = 0;
             this.lblFrom.Text = "Từ ngày";
             // 
@@ -162,13 +169,14 @@ namespace ProjectCSharp
             this.tableLayoutPanel.Controls.Add(this.plotKhoanThu, 0, 1);
             this.tableLayoutPanel.Controls.Add(this.plotKhoanChi, 1, 1);
             this.tableLayoutPanel.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel.Location = new System.Drawing.Point(12, 203);
+            this.tableLayoutPanel.Location = new System.Drawing.Point(11, 162);
+            this.tableLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 2;
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 43.36634F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56.63366F));
-            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(1154, 529);
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
+            this.tableLayoutPanel.Size = new System.Drawing.Size(1026, 423);
             this.tableLayoutPanel.TabIndex = 2;
             // 
             // plotThuNhapDong
@@ -178,13 +186,14 @@ namespace ProjectCSharp
             this.tableLayoutPanel.SetColumnSpan(this.plotThuNhapDong, 2);
             legend1.Name = "Legend1";
             this.plotThuNhapDong.Legends.Add(legend1);
-            this.plotThuNhapDong.Location = new System.Drawing.Point(3, 3);
+            this.plotThuNhapDong.Location = new System.Drawing.Point(3, 2);
+            this.plotThuNhapDong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.plotThuNhapDong.Name = "plotThuNhapDong";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.plotThuNhapDong.Series.Add(series1);
-            this.plotThuNhapDong.Size = new System.Drawing.Size(1148, 223);
+            this.plotThuNhapDong.Size = new System.Drawing.Size(1020, 178);
             this.plotThuNhapDong.TabIndex = 0;
             this.plotThuNhapDong.Text = "chart1";
             // 
@@ -194,14 +203,15 @@ namespace ProjectCSharp
             this.plotKhoanThu.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.plotKhoanThu.Legends.Add(legend2);
-            this.plotKhoanThu.Location = new System.Drawing.Point(3, 232);
+            this.plotKhoanThu.Location = new System.Drawing.Point(3, 185);
+            this.plotKhoanThu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.plotKhoanThu.Name = "plotKhoanThu";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             this.plotKhoanThu.Series.Add(series2);
-            this.plotKhoanThu.Size = new System.Drawing.Size(571, 294);
+            this.plotKhoanThu.Size = new System.Drawing.Size(507, 235);
             this.plotKhoanThu.TabIndex = 1;
             this.plotKhoanThu.Text = "chart2";
             // 
@@ -211,14 +221,15 @@ namespace ProjectCSharp
             this.plotKhoanChi.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
             this.plotKhoanChi.Legends.Add(legend3);
-            this.plotKhoanChi.Location = new System.Drawing.Point(580, 232);
+            this.plotKhoanChi.Location = new System.Drawing.Point(516, 185);
+            this.plotKhoanChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.plotKhoanChi.Name = "plotKhoanChi";
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
             series3.Legend = "Legend1";
             series3.Name = "Series1";
             this.plotKhoanChi.Series.Add(series3);
-            this.plotKhoanChi.Size = new System.Drawing.Size(571, 294);
+            this.plotKhoanChi.Size = new System.Drawing.Size(507, 235);
             this.plotKhoanChi.TabIndex = 2;
             this.plotKhoanChi.Text = "chart3";
             // 
@@ -226,9 +237,9 @@ namespace ProjectCSharp
             // 
             this.lblHeader.AutoSize = true;
             this.lblHeader.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.Location = new System.Drawing.Point(8, 51);
+            this.lblHeader.Location = new System.Drawing.Point(7, 41);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(340, 37);
+            this.lblHeader.Size = new System.Drawing.Size(296, 32);
             this.lblHeader.TabIndex = 1;
             this.lblHeader.Text = "BÁO CÁO THỐNG KÊ";
             // 
@@ -239,19 +250,22 @@ namespace ProjectCSharp
             this.headerPanel.Controls.Add(this.btnBackToGiaoDich);
             this.headerPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.headerPanel.Location = new System.Drawing.Point(0, 0);
+            this.headerPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(1178, 100);
+            this.headerPanel.Size = new System.Drawing.Size(1047, 80);
             this.headerPanel.TabIndex = 0;
             // 
             // BaoCao
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 744);
+            this.ClientSize = new System.Drawing.Size(1047, 595);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel);
             this.Controls.Add(this.filterPanel);
             this.Controls.Add(this.headerPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BaoCao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo Cáo Thống Kê";
