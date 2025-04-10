@@ -323,3 +323,4 @@ E:\C#_11_4\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectC.30D174BD.Up2Date
 E:\C#_11_4\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.exe
 E:\C#_11_4\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.pdb
 E:\C#_11_4\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.BaoCao.resources
+C:\Users\PC\Source\Repos\ProjectCSharp\ProjectCSharp\obj\Debug\ProjectCSharp.BaoCao.resources
